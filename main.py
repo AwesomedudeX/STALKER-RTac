@@ -1,7 +1,7 @@
 import streamlit as st
 from io import StringIO
 
-st.set_page_config(page_title="STALKER RTac Official Site", layout="wide", initial_sidebar_state="expanded", page_icon="STALKER Rtac Logo.png")
+st.set_page_config(page_title="STALKER RTac Official Site", layout="wide", initial_sidebar_state="expanded", page_icon="STALKER RTac Logo.png")
 
 @st.cache_data()
 def showScreenshots(screenshots, ext):
