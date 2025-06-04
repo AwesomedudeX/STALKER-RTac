@@ -11,7 +11,7 @@ def showScreenshots(screenshots, ext):
 page = st.sidebar.radio("**Navigation:**", ["Miracle Graphics Pack", "STALKER RTac", "Modlist Compatibility", "Load Atmospheric Preset", "MCM Settings For SSS", "Awesomedude's Graphics Settings", "ReShade File Finder", "Atmospheric Preset Editor", "Arrival Anomalies"])
 atmospresets = {
 
-"RTac": """
+"Realistic": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -46,7 +46,7 @@ shader_param_3 (0.000000, 0.000000, 0.000000, 0.670000)
 shader_param_4 (0, 0, 0.01, 1.12)
 """,
 
-"RTacDull": """
+"Dull": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -81,7 +81,7 @@ shader_param_3 (0.9, 0.9, 0.9, -0.3)
 shader_param_4 (1.12, 1.12, 1.13, -0.4)
 """,
 
-"RTacGloomy": """
+"Gloomy": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -116,7 +116,7 @@ shader_param_3 (0.9, 0.86, 0.8, -0.35)
 shader_param_4 (1.12, 1.12, 1.13, -0.4)
 """,
 
-"RTacRealistic": """
+"Realistic": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -151,7 +151,7 @@ shader_param_3 (0, 0, 0.02, 0.67)
 shader_param_4 (1.12, 1.12, 1.13, -0.4)
 """,
 
-"RTacNature": """
+"Nature": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -186,7 +186,7 @@ shader_param_3 (0.9, 0.88, 0.82, -0.15)
 shader_param_4 (1.12, 1.12, 1.13, -0.4)
 """,
 
-"RTacNight": """
+"Night": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -221,7 +221,7 @@ shader_param_3 (0.05, 0.05, 0, 0.67)
 shader_param_4 (1.12, 1.12, 1.13, -0.4)
 """,
 
-"RTacVibrant": """
+"Vibrant": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -256,7 +256,7 @@ shader_param_3 (0.838, 0.847, 0.86, -0.25)
 shader_param_4 (1.12, 1.12, 1.13, -0.4)
 """,
 
-"RTacMysterious": """
+"Mysterious": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -291,7 +291,7 @@ shader_param_3 (0.88, 0.85, 0.81, -0.3)
 shader_param_4 (1.12, 1.12, 1.13, -0.4)
 """,
 
-"RTacApocalypse": """
+"Apocalypse": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -326,7 +326,7 @@ shader_param_3 (0.88, 0.88, 0.92, -0.3)
 shader_param_4 (1.12, 1.12, 1.13, -0.4)
 """,
 
-"RTacHDR": """
+"HDR": """
 r__color_grading (0, 0, 0)
 
 r__enable_grass_shadow off
@@ -975,9 +975,9 @@ Download these modded exes: https://github.com/themrdemonized/xray-monolith/rele
 
 Then, download and install these files **in the order shown** using the links below; install them through MO2, placing them at the bottom of your modlist. Because of the size of the mod, MO2 may freeze during the installation; just wait for a bit for the mod to be installed and MO2 will be functional again.
 
-**Miracle Graphics PACK MAIN FILE: https://drive.google.com/uc?export=download&id=1BfzX8lDHcVq3SWconCI3MdcfQDjlftVK**
+**Miracle Graphics Pack MAIN FILE: https://drive.google.com/uc?export=download&id=1lF1IvNQtmIA3l3G82ZAxdf36XIZbXwpH**
 
-**Miracle Graphics OPTIONALS: https://drive.google.com/uc?export=download&id=1OVRrutTfFfJ2of3_iASgHLhKhkwO3uKx**
+**Miracle Graphics OPTIONALS: https://drive.google.com/uc?export=download&id=1yU_MDIyeUs1UAOfGioDIGbBVcdifEv2y**
 
 **RESHADE 6.3.3 DX11: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy**
 
@@ -991,11 +991,11 @@ Finally, you can either use the **Load Atmospheric Preset** page or just open th
 """
 stalkerRTac = {
     "part1": """
-STALKER RTac is a modpack designed around making STALKER as realistic as possible, featuring a Cold System, constant psy drain, modified item effects, a realistic body health system, HUD changes, reanimations, and so much more.
+**STALKER RTac** is a modpack designed around making STALKER as realistic as possible, featuring a Cold System, constant psy drain, modified item effects, a realistic body health system, HUD changes, reanimations, and so much more.
 
 To get **STALKER RTac**, first, make sure MO2 is CLOSED. Then, download the following files and open them in 7Zip. Drag and drop EVERYTHING inside the `STALKER RTac.7z` file into your `GAMMA` folder, and drag and drop the contents of the other two files into your `mods` folder.
 
-***STALKER RTac***: https://www.mediafire.com/file/5vxr7rrzs9gb735/STALKER+RTac.7z/file
+***STALKER RTac***: https://www.mediafire.com/file/sui6lwwhd3iusio/STALKER+RTac.7z/file
 
 ***RTac GAMMA Mods***: https://www.mediafire.com/file/12h31ywvngu4vjf/XTREME_GAMMA_Mods.7z/file
 
@@ -1364,10 +1364,10 @@ else:
 
         with st.sidebar.expander("**Settings**"):
 
-            startfrom = st.radio("**How do you want to start creating your preset?**", ["Start From Scratch", "Start From an RTac Preset", "Start From an Existing Preset"])
+            startfrom = st.radio("**How do you want to start creating your preset?**", ["Start From Scratch", "Start From a Miracle Graphics Preset", "Start From an Existing Preset"])
 
-            if startfrom == "Start From an RTac Preset":
-                atmospreset = atmospresets[st.radio("**Select an RTac Preset to Start From:**", atmospresets)]
+            if startfrom == "Start From a Miracle Graphics Preset":
+                atmospreset = atmospresets[st.radio("**Select a Preset to Start From:**", atmospresets)]
 
             elif startfrom == "Start From an Existing Preset":
 
@@ -1609,7 +1609,7 @@ else:
 
             preset = "\n".join(preset)
 
-            if startfrom == "Start From an RTac Preset":
+            if startfrom == "Start From a Miracle Graphics Preset":
                 preset = atmospreset+"\n\n"+preset
 
             presetname = st.text_input("What do you want to name your preset?", "MyPreset.ltx").strip()
