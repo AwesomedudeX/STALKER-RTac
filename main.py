@@ -987,7 +987,7 @@ Head to the **STALKER RTac** page for instructions on how to install it - I high
 
 From there, if you are not going to get **STALKER RTac**, follow the instructions on the **Modlist Compatibility** and **MCM Settings For SSS** pages on this site to modify your settings and mod list files to work with this pack.
 
-Finally, you can either use the **Load Atmospheric Preset** page or just open the game and type `cfg_load RTac` to load the atmospheric settings. If you are using **STALKER RTac**, I recommend getting ALL of my graphics settings to ensure everything works properly.
+Finally, you can either use the **Load Atmospheric Preset** page or just open the game and type `cfg_load Realistic` to load the atmospheric settings. If you are using **STALKER RTac**, I recommend getting ALL of my graphics settings to ensure everything works properly.
 """
 stalkerRTac = {
     "part1": """
