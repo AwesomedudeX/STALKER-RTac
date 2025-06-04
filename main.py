@@ -1263,7 +1263,7 @@ else:
 
     elif page == "Load Atmospheric Preset":
 
-        st.write("This will load the settings from the selected atmospheric preset (default is **`RTac`**) into a copy of your game settings file, which you can download and use to replace your **`user.ltx`** (game settings) file.")
+        st.write("This will load the settings from the selected atmospheric preset (default is **`Realistic`**) into a copy of your game settings file, which you can download and use to replace your **`user.ltx`** (game settings) file.")
 
         atmospreset = atmospresets[st.radio("**Select a preset below:**", atmospresets)]
         userfile = st.file_uploader("**After that, upload your **`user.ltx`** file (**located in the `Anomaly/appdata/` folder**) here:**")
