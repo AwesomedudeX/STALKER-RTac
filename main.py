@@ -971,7 +971,7 @@ fov 100.
 hud_fov 0.7
 hud_fov_aim_factor 0."""
 installation = """
-Download these modded exes: https://github.com/themrdemonized/xray-monolith/releases/download/2025.4.5/STALKER-Anomaly-modded-exes_2025.4.5.zip, open the file in 7Zip, and extract ALL the files into your Anomaly folder.
+Download these modded exes: https://github.com/themrdemonized/xray-monolith/releases/download/2025.6.5/STALKER-Anomaly-modded-exes_2025.6.5.zip, open the file in 7Zip, and extract ALL the files into your Anomaly folder.
 
 Then, download and install these files **in the order shown** using the links below; install them through MO2, placing them at the bottom of your modlist. Because of the size of the mod, MO2 may freeze during the installation; just wait for a bit for the mod to be installed and MO2 will be functional again.
 
@@ -1012,7 +1012,7 @@ To do that, head to https://www.moddb.com/mods/stalker-anomaly/addons/arrival-an
     Once that's done, you should be good to go! If you have any issues, feel free to reach out to me, and I'll help you the best I can. Enjoy!
     """
 }
-important = "If the ReShade preset doesn't load, go to the **ReShade File Finder** page to locate it. Also, if you want to use **Arrival Anomalies** with **STALKER RTac**, go to the **Arrival Anomalies** page."
+important = "If the ReShade preset doesn't load, go to the **ReShade File Finder** page to locate it."
 mainlist = {
 
     "shaders": """
