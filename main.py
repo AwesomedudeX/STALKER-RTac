@@ -8,7 +8,7 @@ def showScreenshots(screenshots, ext):
     for img in screenshots:
         st.image(img+ext, img)
 
-page = st.sidebar.radio("**Navigation:**", ["Miracle Graphics Pack", "STALKER RTac", "Modlist Compatibility", "Load Atmospheric Preset", "MCM Settings For SSS", "Awesomedude's Graphics Settings", "ReShade File Finder", "Atmospheric Preset Editor", "Arrival Anomalies"])
+page = st.sidebar.radio("**Navigation:**", ["Miracle Graphics Pack", "STALKER RTac", "Modlist Compatibility", "MCM Settings For SSS", "Awesomedude's Graphics Settings", "ReShade File Finder", "Atmospheric Preset Editor", "Arrival Anomalies"])
 atmospresets = {
 
 "Realistic": """
@@ -985,9 +985,9 @@ You can also get **STALKER RTac**, which is a modpack full of mods to greatly en
 
 Head to the **STALKER RTac** page for instructions on how to install it - I highly recommend using it with **Miracle Graphics Pack**.
 
-From there, if you are not going to get **STALKER RTac**, follow the instructions on the **Modlist Compatibility** and **MCM Settings For SSS** pages on this site to modify your settings and mod list files to work with this pack.
+From there, if you are not getting **STALKER RTac** (you are only getting **Miracle Graphics Pack**), follow the instructions on the **Modlist Compatibility** and **MCM Settings For SSS** pages on this site to modify your settings and mod list files to work with this pack.
 
-Finally, you can either use the **Load Atmospheric Preset** page or just open the game and type `cfg_load Realistic` to load the atmospheric settings. If you are using **STALKER RTac**, I recommend getting ALL of my graphics settings to ensure everything works properly.
+Finally, open the game and type `cfg_load Realistic` into the game console to load the atmospheric settings. If you are using **STALKER RTac**, I recommend getting ALL of my graphics settings to ensure everything works properly.
 """
 stalkerRTac = {
     "part1": """
@@ -1333,7 +1333,7 @@ else:
 
     elif page == "ReShade File Finder":
 
-        st.write("This page will give you the path to your ReShade file. Just enter the information below (highlight a folder in File Explorer and use `Ctrl+Shift+C` to copy its path), and hit **Locate**. Then, the path of the ReShade presets folder will show below. Copy it and paste it in the ReShade menu, and select the ReShade preset that you want (I recommend RTac RTGI).")
+        st.write("This page will give you the path to your ReShade file. Just enter the information below (highlight a folder in File Explorer and use `Ctrl+Shift+C` to copy its path), and hit **Locate**. Then, the path of the ReShade presets folder will show below. Copy it and paste it in the ReShade menu, and select the ReShade preset that you want.")
 
         gammapath = st.text_input("Enter the file path of your **GAMMA** folder:")
         rename = st.checkbox("Did you rename the **Miracle Graphics Pack** mod?")
