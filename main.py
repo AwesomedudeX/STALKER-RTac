@@ -997,7 +997,7 @@ To get **STALKER RTac**, first, make sure MO2 is CLOSED. Then, download the foll
 
 ***STALKER RTac***: https://www.mediafire.com/file/sui6lwwhd3iusio/STALKER+RTac.7z/file
 
-***RTac GAMMA Mods***: https://www.mediafire.com/file/12h31ywvngu4vjf/XTREME_GAMMA_Mods.7z/file
+***RTac GAMMA Mods***: https://www.mediafire.com/file/wtepoct4yiaq3vj/RTac+GAMMA+Mods.7z/file
 
 ***RTac GAMMA Large Files***: https://www.mediafire.com/file/7q88fyjpk7cl7u1/G.A.M.M.A._Large_Files.7z/file
 
