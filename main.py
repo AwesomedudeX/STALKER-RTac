@@ -995,7 +995,7 @@ stalkerRTac = {
 
 To get **STALKER RTac**, first, make sure MO2 is CLOSED. Then, download the following files and open them in 7Zip. Drag and drop EVERYTHING inside the `STALKER RTac.7z` file into your `GAMMA` folder, and drag and drop the contents of the other two files into your `mods` folder.
 
-***STALKER RTac***: https://www.mediafire.com/file/d2afkr2nw0rhu9u/STALKER+RTac.7z/file
+***STALKER RTac***: https://discord.gg/readyornot
 
 ***RTac GAMMA Mods***: https://www.mediafire.com/file/wtepoct4yiaq3vj/RTac+GAMMA+Mods.7z/file
 
