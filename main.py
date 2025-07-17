@@ -1028,7 +1028,7 @@ stalkerRTac = {
     "part1": """
 **STALKER RTac** is a modpack designed around making STALKER as realistic as possible, featuring a Cold System, constant psy drain, modified item effects, a realistic body health system, HUD changes, reanimations, and so much more.
 
-To get **STALKER RTac**, first, make sure MO2 is CLOSED. Then, download the following files and open them in 7Zip. Drag and drop EVERYTHING inside the `STALKER RTac.7z` file into your `GAMMA` folder, and drag and drop the contents of the other two files into your `mods` folder.
+To get **STALKER RTac**, first, make sure MO2 is CLOSED. Then, download the following files and open them in 7Zip. Drag and drop EVERYTHING inside the `STALKER RTac.7z` file into your `GAMMA` folder, and drag and drop the contents of the `RTac GAMMA Mods` and `RTac GAMMA Large Files` files into your `mods` folder.
 
 ***STALKER RTac***: https://www.mediafire.com/file/h0quf1qem4m2acn/STALKER_RTac.7z/file
 
