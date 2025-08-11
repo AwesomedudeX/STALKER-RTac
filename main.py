@@ -1234,7 +1234,7 @@ if page == "Miracle Graphics Pack":
 
     st.write("---")
 
-    st.header("Installation:")
+    st.header("Miracle Graphics Pack Installation:")
     st.write(mgp)
 
     st.subheader("IMPORTANT:")
@@ -1283,7 +1283,6 @@ if page == "Miracle Graphics Pack":
 
         st.header("RTac LUTs:")
         st.write(optionalslist["luts"])
-
 
 elif page == "Modlist Compatibility":
 
