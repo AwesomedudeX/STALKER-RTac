@@ -8,7 +8,7 @@ def showScreenshots(screenshots, ext):
     for img in screenshots:
         st.image(img+ext, img)
 
-page = st.sidebar.radio("**Navigation:**", ["STALKER RTac", "Miracle Graphics Pack", "Modlist Compatibility", "MCM Settings For SSS", "Awesomedude's Graphics Settings", "ReShade File Finder", "Atmospheric Preset Editor", "Arrival Anomalies"])
+page = st.sidebar.radio("**Navigation:**", ["STALKER RTac", "Miracle Graphics Pack", "Modlist Compatibility", "MCM Settings For SSS", "Awesomedude's Graphics Settings", "ReShade File Finder", "Atmospheric Preset Editor"])
 atmospresets = {
 
 "Realistic": """
@@ -995,7 +995,7 @@ fov 100.
 hud_fov 0.75
 hud_fov_aim_factor 0."""
 mgp = """
-Download these modded exes: https://github.com/themrdemonized/xray-monolith/releases/download/2025.7.14/STALKER-Anomaly-modded-exes_2025.7.14.zip, open the file in 7Zip, and extract ALL the files into your Anomaly folder.
+Download these modded exes: https://github.com/themrdemonized/xray-monolith/releases/download/2025.8.12/STALKER-Anomaly-modded-exes_2025.8.12.zip, open the file in 7Zip, and extract ALL the files into your Anomaly folder.
 
 Then, download and install these files **in the order shown** using the links below; install them through MO2, placing them at the bottom of your modlist. Because of the size of the mod, MO2 may freeze during the installation; just wait for a bit for the mod to be installed and MO2 will be functional again.
 
@@ -1017,6 +1017,7 @@ rtac = {
     "intro": """---
 **STALKER RTac** is a modpack designed around making STALKER Anomaly as realistic as possible, featuring a Cold System, constant psy drain, modified item effects, a realistic body health system, HUD changes, reanimations, and so much more.
 
+
 ---""",
 
     "reqsfiles": """---
@@ -1026,7 +1027,7 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***STALKER Anomaly 1.5.3 (~9GB packed; ~15GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-153
 
-***Modded Exes (~64MB packed; ~159MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.7.14/STALKER-Anomaly-modded-exes_2025.7.14.zip
+***Modded Exes (~64MB packed; ~159MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.8.12/STALKER-Anomaly-modded-exes_2025.8.12.zip
 
 ***RTac MO2 (~187MB packed; ~603MB unpacked)***: https://www.mediafire.com/file/leoujwhlbsuzowe/RTac+MO2.7z/file
 
@@ -1428,309 +1429,3 @@ elif page == "ReShade File Finder":
             st.write(f"**Preset Folder Path: `{gammapath}{separator}mods{separator}{name}{separator}bin{separator}`**")
 
 elif page == "Atmospheric Preset Editor":
-
-    st.write("This page will allow you to create your **own** atmospheric preset.")
-    st.write("On the sidebar to the left, select the settings that you want to add to your preset. Then, fill out the fields that appear below.")
-
-    preset = ""
-    settings = {}
-
-    with st.sidebar.expander("**Settings**"):
-
-        startfrom = st.radio("**How do you want to start creating your preset?**", ["Start From Scratch", "Start From a Miracle Graphics Preset", "Start From an Existing Preset"])
-
-        if startfrom == "Start From a Miracle Graphics Preset":
-            atmospreset = atmospresets[st.radio("**Select a Preset to Start From:**", atmospresets)]
-
-        elif startfrom == "Start From an Existing Preset":
-
-            existingpreset = st.file_uploader("**Upload your preset here:**")
-
-            if existingpreset != None:
-
-                if existingpreset.name[-4:] == ".ltx":
-                    strio = StringIO(existingpreset.getvalue().decode("utf-8"))
-                    preset = strio.read()+"\n\n\n"
-
-                else:
-                    st.write("This is not a valid preset. Make sure to upload one that has a \"`.ltx`\" file extension - they can be found in the `appdata` folder in a mod, or the base `Anomaly` folder.")
-
-        st.header("Preset Settings")
-
-        selectall = st.checkbox("Select All", True)
-
-        st.subheader("Main Shader Settings")
-
-        selectallss = st.checkbox("Select All Shader Settings", selectall)
-        shader1 = st.checkbox("Bright Colors", selectallss)
-        shader2 = st.checkbox("Dark Colors", selectallss)
-        shader3 = st.checkbox("Shader Gamma (mid-range colors)", selectallss)
-        shader4 = st.checkbox("Contrast", selectallss)
-
-        st.subheader("Post-Processing")
-
-        selectallpp = st.checkbox("Select All Post-Process Settings", selectall)
-        exposure = st.checkbox("Camera Exposure", selectallpp)
-        gamma = st.checkbox("Display Gamma", selectallpp)
-        saturation = st.checkbox("Color Saturation/Strength", selectallpp)
-        cgrading = st.checkbox("Color Grading", selectallpp)
-
-        st.subheader("Grass Settings")
-
-        selectallgs = st.checkbox("Select All Grass Settings", selectall)
-        grassheight = st.checkbox("Grass Size", selectallgs)
-        grassdensity = st.checkbox("Grass Density", selectallgs)
-        grassrender = st.checkbox("Grass Render Distance", selectallgs)
-
-        st.subheader("Advanced Options")
-
-        selectallao = st.checkbox("Select All Advanced Options", selectall)
-        mblur = st.checkbox("Motion Blur Intensity", selectallao)
-        sunlum = st.checkbox("Sun Brightness", selectallao)
-        sunlumamb = st.checkbox("Ambient Sunlight Brightness", selectallao)
-        tonemapamt = st.checkbox("Tonemapping Amount", selectallao)
-        tonemapadapt = st.checkbox("Tonemapping Adaptation", selectallao)
-
-        st.subheader("Screen Space FX Settings")
-
-        selectallssfx = st.checkbox("Select All SSFX Settings", selectall)
-        hudhemi = st.checkbox("Additional HUD Brightness", selectallssfx)
-
-    if exposure or gamma or saturation or cgrading:
-
-        st.write("---")
-        st.header("Post-Processing")
-
-        cols = st.columns(3)
-
-        colindex = 0
-
-        if exposure:
-            settings['r__exposure'] = cols[colindex].slider("**Camera Exposure (`r__exposure`)**", min_value=0.5, max_value=4.0, value=1.0, step=0.01)
-            colindex += 1
-
-        if gamma:
-            settings['r__gamma'] = cols[colindex].slider("**Display Gamma (`r__gamma`)**", min_value=0.5, max_value=2.2, value=1.0, step=0.01)
-            colindex += 1
-
-        if saturation:
-            settings['r__saturation'] = cols[colindex].slider("**Color Saturation (`r__saturation`)**", min_value=0.0, max_value=2.0, value=1.0, step=0.01)
-
-        st.header("")
-        st.subheader("**Color Grading**")
-        st.write("**(`r__color_grading`)**")
-
-        cols = st.columns(3)
-
-        if cgrading:
-            settings["r__color_grading"] = [cols[0].number_input("**Red**", min_value=0.0, max_value=1.0, value=0.0, step=0.01), cols[1].number_input("**Green**", min_value=0.0, max_value=1.0, value=0.0, step=0.01), cols[2].number_input("**Blue**", min_value=0.0, max_value=1.0, value=0.0, step=0.01)]
-
-    if grassheight or grassdensity or grassrender:
-
-        st.write("---")
-        st.header("Grass Settings (SAVE RELOAD REQUIRED)")
-
-        cols = st.columns(3)
-
-        colindex = 0
-
-        if grassheight:
-            settings['r__detail_height'] = cols[colindex].slider("**Grass Size (`r__detail_height`)**", min_value=0.5, max_value=2.0, value=0.8, step=0.01)
-            colindex += 1
-
-        if grassdensity:
-            settings['r__detail_density'] = 1 - ( cols[colindex].slider("**Grass Density (`r__detail_density`)**", min_value=0.0, max_value=1.0, value=0.5, step=0.01) * (0.96) )
-            colindex += 1
-
-        if grassrender:
-            settings['r__detail_radius'] = cols[colindex].slider("**Grass Render Distance (`r__detail_radius`)**", min_value=0, max_value=250, value=150, step=5)
-
-
-    if sunlum or sunlumamb or tonemapamt or tonemapadapt:
-
-        st.write("---")
-        st.header("Advanced Options")
-
-        if mblur:
-            mblurintensity = st.slider("**Motion Blur Intensity (set to 0 to turn off) (`r2_mblur_enabled` & `r2_mblur`)**", min_value=0.0, max_value=1.0, value=0.0, step=0.01)
-
-            if mblurintensity == 0:
-                settings["r2_mblur_enabled"] = "off"
-            else:
-                settings["r2_mblur_enabled"] = "on"
-
-            settings['r2_mblur'] = mblurintensity
-
-        if sunlum:
-            settings['r2_sun_lumscale'] = st.slider("**Sun Brightness (`r2_sun_lumscale`)**", min_value=-1.0, max_value=3.0, value=3.0, step=0.01)
-
-        if sunlumamb:
-            settings['r2_sun_lumscale_amb'] = st.slider("**Ambient Sunlight Brightness (`r2_sun_lumscale_amb`)**", min_value=0.0, max_value=3.0, value=2.0, step=0.01)
-
-        if tonemapamt:
-
-            tonemapamtinput = st.slider("**Tonemapping Amount - Set to 0 to turn off tonemapping (`r2_tonemap` & `r2_tonemap_amount`)**", min_value=0.0, max_value=1.0, value=0.5, step=0.01)
-
-            if tonemapamtinput == 0:
-                settings['r2_tonemap'] = "off"
-
-            else:
-                settings['r2_tonemap'] = "on"
-
-            settings['r2_tonemap_amount'] = tonemapamtinput
-
-        if tonemapadapt:
-            settings['r2_tonemap_adaptation'] = st.slider("**Tonemapping Adaptation (`r2_sun_lumscale_amb`)**", min_value=0.01, max_value=10.0, value=3.0, step=0.01)
-
-    if hudhemi:
-
-        st.write("---")
-        st.header("Screen Space FX Settings")
-
-        settings['ssfx_hud_hemi'] = st.number_input("**Additional HUD Brightness (`ssfx_hud_hemi`)**", min_value=0.0, max_value=1.0, value=0.0, step=0.01)
-
-    if shader1 or shader2 or shader3 or shader4:
-
-        st.write("---")
-        st.header("Main Shader Settings")
-
-        cols = st.columns(5)
-
-        cols[0].write("**Setting (Parameter)**")
-        cols[1].write("**Red Intensity**")
-        cols[2].write("**Green Intensity**")
-        cols[3].write("**Blue Intensity**")
-        cols[4].write("**Overall Intensity**")
-
-        cols[0].write("")
-
-        if shader1:
-            cols[0].write("**Bright Colors (0 to 1)**")
-            cols[0].write("**`shader_param_1`**")
-            settings['shader_param_1'] = [cols[1].number_input("Red1", min_value=0.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[2].number_input("Green1", min_value=0.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[3].number_input("Blue1", min_value=0.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[4].number_input("**Overall Intensity Offset 1**", min_value=0.0, max_value=1.0, value=0.0, step=0.01, label_visibility="hidden")]
-
-        if shader2:
-            cols[0].write("**Dark Colors (0 to 1)**")
-            cols[0].write("**`shader_param_2`**")
-            settings['shader_param_2'] = [cols[1].number_input("Red2", min_value=0.0, max_value=1.0, value=0.0, step=0.01, label_visibility="hidden"), cols[2].number_input("Green2", min_value=0.0, max_value=1.0, value=0.0, step=0.01, label_visibility="hidden"), cols[3].number_input("Blue2", min_value=0.0, max_value=1.0, value=0.0, step=0.01, label_visibility="hidden"), cols[4].number_input("**Overall Intensity Offset 2**", min_value=0.0, max_value=1.0, value=0.0, step=0.01, label_visibility="hidden")]
-
-        if shader3:
-            cols[0].write("**Shader Gamma (-1 to 1)**")
-            cols[0].write("**`shader_param_3`**")
-            settings['shader_param_3'] = [cols[1].number_input("Red3", min_value=-1.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[2].number_input("Green3", min_value=-1.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[3].number_input("Blue3", min_value=-1.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[4].number_input("**Overall Intensity Offset 3**", min_value=0.0, max_value=1.0, value=0.0, step=0.01, label_visibility="hidden")]
-
-        if shader4:
-            cols[0].write("**Contrast (-1 to 1)**")
-            cols[0].write("**`shader_param_4`**")
-            settings['shader_param_4'] = [cols[1].number_input("Red4", min_value=-1.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[2].number_input("Green4", min_value=-1.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[3].number_input("Blue4", min_value=-1.0, max_value=1.0, value=1.0, step=0.01, label_visibility="hidden"), cols[4].number_input("**Overall Intensity Offset 4**", min_value=-1.0, max_value=1.0, value=0.0, step=0.01, label_visibility="hidden")]
-
-    for param, val in zip(settings, settings.values()):
-
-        if type(val) == list:
-
-            preset += f"{param} ("
-
-            for v in val:
-                if type(v) != str:
-                    preset += f"{round(v, 2)}, "
-                else:
-                    preset += f"{v}, "
-
-            preset = preset[:-2]+")\n"
-
-        else:
-
-            if type(val) != str:
-                preset += f"{param} {round(val, 2)}\n"
-            else:
-                preset += f"{param} {val}\n"
-
-
-    if preset != None:
-
-        st.header("Final Steps")
-
-        preset = preset.split("\n")
-
-        rnewline = True
-        rcgnewline = True
-        r2newline = True
-        ssfxnewline = True
-        shadernewline = True
-
-        for line in range(len(preset)):
-
-            if "r__" in preset[line] and rnewline:
-                preset[line] = "\n"+str(preset[line])
-                rnewline = False
-
-            if "r__color_grading" in preset[line] and rcgnewline:
-                preset[line] = "\n"+str(preset[line])
-                rcgnewline = False
-
-            if "r2_" in preset[line] and r2newline:
-                preset[line] = "\n"+str(preset[line])
-                r2newline = False
-
-            if "ssfx" in preset[line] and ssfxnewline:
-                preset[line] = "\n"+str(preset[line])
-                ssfxnewline = False
-
-            if "shader_param" in preset[line] and shadernewline:
-                preset[line] = "\n"+str(preset[line])
-                shadernewline = False
-
-        preset = "\n".join(preset)
-
-        if startfrom == "Start From a Miracle Graphics Preset":
-            preset = atmospreset+"\n\n"+preset
-
-        presetname = st.text_input("What do you want to name your preset?", "MyPreset.ltx").strip()
-
-        if presetname[-4:] != ".ltx":
-            presetname = presetname + ".ltx"
-
-        with st.expander("**Preset Preview**", expanded=True):
-
-            st.header(presetname)
-            st.write(f"```{preset}\n```")
-
-        st.download_button(f"**Download Your Preset (:blue[{presetname}])**", data=preset, file_name=presetname)
-
-elif page == "Arrival Anomalies":
-
-        st.write("Download **Arrival Anomalies** and install it using the instructions on here: **https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies**")
-        st.write("Then, go to your `GAMMA/profiles/RTac/` folder and upload your `modlist.txt` file below (ONLY IF YOU ARE USING **STALKER RTac**). After that, enter the name of the mod when you installed it below. Finally, download the converted file, and replace your `modlist.txt` file with it (close and reopen MO2 if it was open).")
-
-        userfile = st.file_uploader("")
-
-        if userfile != None:
-
-            if userfile.name != "modlist.txt":
-                st.subheader("This is not a valid modlist file. Please use a valid file.")
-
-            else:
-
-                strio = StringIO(userfile.getvalue().decode("utf-8"))
-                userfile = strio.read()
-
-                mods = userfile.split("\n")
-                userout = []
-
-                name = st.text_input("What did you name the mod while installing it?")
-
-                for mod in mods:
-
-                    if userout == []:
-                        userout = [mod]
-
-                    else:
-
-                        if "RTac Visuals and Actor Animations" in mod:
-                            userout.append(f"+{name}")
-                            print(userout)
-
-                        userout.append(mod)
-
-                userout = "\n".join(userout)
-                download = st.download_button("Download Converted File", data=userout, file_name="modlist.txt")
