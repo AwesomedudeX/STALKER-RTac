@@ -1032,13 +1032,13 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***RTac MO2 (~187MB packed; ~603MB unpacked)***: https://www.mediafire.com/file/leoujwhlbsuzowe/RTac+MO2.7z/file
 
-***Miracle Graphics Pack MAIN FILE (~10GB packed; ~20GB unpacked)***: https://drive.google.com/uc?export=download&id=1vJ62SFeap43yTdIwQOwkJRQeVMbuD23H
+***Miracle Graphics Pack MAIN FILE (~10GB packed; ~20GB unpacked)***: https://drive.google.com/uc?export=download&id=1XzKTUQE4r-YWH-iCYQbU-DoB8QQWE5vZ
 
-***Miracle Graphics OPTIONALS (~10GB packed; ~9GB unpacked)***: https://drive.google.com/uc?export=download&id=1RPhEUV0WLOFZU3jMHw1UE-y1aZqfRHOf
+***Miracle Graphics OPTIONALS (~10GB packed; ~9GB unpacked)***: https://drive.google.com/uc?export=download&id=1vRapKMPzpJnd79mvOVgQ7xKOMhqhPgUt
 
 ***RESHADE 6.3.3 DX11 (~115MB packed; ~240MB unpacked)***: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy
 
-***RTac GAMMA Mods (~8.7GB packed; ~31.4GB unpacked)***: https://www.mediafire.com/file/wtepoct4yiaq3vj/RTac+GAMMA+Mods.7z/file
+***RTac GAMMA Mods (~8.7GB packed; ~31.4GB unpacked)***: https://www.mediafire.com/file/cucnlrgwj1s1xuo/RTac+GAMMA+Mods.7z/file
 
 ***RTac GAMMA Large Files (~2.6GB packed; ~7.5GB unpacked)***: https://www.mediafire.com/file/7q88fyjpk7cl7u1/G.A.M.M.A._Large_Files.7z/file
 
