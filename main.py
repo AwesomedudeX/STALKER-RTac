@@ -1018,6 +1018,7 @@ rtac = {
     "intro": """---
 **STALKER RTac** is a modpack designed around making STALKER Anomaly as realistic as possible, featuring a Cold System, constant psy drain, modified item effects, a realistic body health system, HUD changes, reanimations, and so much more.
 
+If you haven't already, please join the **STALKER RTac Discord Server** at ***https://discord.gg/mAEhFkyfTj***, to get tech support, update notifications, announcements and other information and support regarding the modpack.
 
 ---""",
 
@@ -1067,7 +1068,9 @@ Create another folder **on your base drive**, and name it `GAMMA`. Open the `RTa
 
 After that, **open MO2** by running `ModOrganizer.exe` (which is inside of your GAMMA folder) and install **both** of the **Miracle Graphics Pack** files, as well as the `ReShade 6.3.3 DX11.7z`.
 
-You can do this by clicking on the **folder icon** in the **top left**, and opening the file. **Follow the instructions on the installer** for each one. **Ensure you don't rename the mods**, as it will be necessary for the modlist to be configured properly.
+You can do this by clicking on the **folder icon** in the **top left**, and opening the file. **Follow the instructions on the installer** for each one. I **highly suggest** selecting all available options for the best experience, excluding any options that may cause incompatibilities (eg. ATO 5 Ground Textures, which are incompatible with Winter). Ensure you select **both** preset options in the main pack, so that you can use them during gameplay.
+
+Also, **ensure you don't rename the mods**, as it will be necessary for the modlist to be configured properly.
 """,
 
     "instp3": """
@@ -1085,9 +1088,15 @@ Finally, open Mod Organizer 2, right-click the **first (top) mod** in under the 
 """,
 
     "conclusion": """---
-Now, you can play **STALKER RTac**. **Launch the game using the Anomaly Launcher** to avoid modified executable issues, and **enjoy the game**!
+Now, you can play **STALKER RTac**. **Launch the game using the Anomaly Launcher** to avoid modified executable issues, and **enjoy the game**! Make sure to enter `cfg_load realistic` in the game console (in-game; open it with the `~` key) to load the **Realistic** LTX config file, which will change your shader and post-processing settings to those in the preset.
 
-If you are confused, or have any issues, please **contact me** on the `# tech-support` channel on the **STALKER RTac Discord Server**.
+You can load any preset you like. The format for this command `cfg_load [preset]`; instead of `[preset]`, use any of the following presets: `realistic`, `gloomy` (slightly desaturated, depressing look), `dull` (desaturated, bleak look), `vibrant` (vivid and saturated look), `nature` (natural, full-of-life look), `mysterious`, `apocalpse` (polluted, irradiated look), `night` (mimics eye behaviour at night), or `hdr` (**only for HDR**).
+
+If you would like my `user.ltx` (game settings) file, ping me and ask for it in the `# tech-support` channel, and I'll send it to you when I can.
+
+If you are confused, or have any issues, please check the `# common-fixes-and-tips` channel on the **STALKER RTac Discord Server** for anything that could help. If you cannot find anything to solve your issue, **contact me** on the `# tech-support` channel, and I will help you however I can.
+
+Also, if you have any feedback, please let me know in the `# feedback` channel, and I will take a look at it as soon as I can.
 """
 }
 important = "If the ReShade preset doesn't load, go to the **ReShade File Finder** page to locate it."
