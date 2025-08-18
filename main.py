@@ -1231,9 +1231,9 @@ if page == "STALKER RTac":
 if page == "Miracle Graphics Pack":
 
     st.title("Miracle Graphics Pack")
+    st.write("---")
     st.write("This graphics pack is a nice and easy way to make your game look so much better. It features a series of mods to improve shaders, VFX, textures and overall visual fidelity.")
 
-    st.write("---")
 
     previewscreenshots = st.checkbox("**Load Preview Screenshots**", value=False)
 
