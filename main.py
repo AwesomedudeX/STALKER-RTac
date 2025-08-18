@@ -1099,7 +1099,6 @@ If you are confused, or have any issues, please check the `# common-fixes-and-ti
 Also, if you have any feedback, please let me know in the `# feedback` channel, and I will take a look at it as soon as I can.
 """
 }
-important = "If the ReShade preset doesn't load, go to the **ReShade File Finder** page to locate it."
 mainlist = {
 
     "shaders": """
@@ -1236,11 +1235,15 @@ if page == "Miracle Graphics Pack":
 
     st.write("---")
 
-    with st.expander("**Preview Screenshots**"):
+    previewscreenshots = st.checkbox("**Load Preview Screenshots**", value=False)
 
-        st.header("Preview Screenshots:")
+    if previewscreenshots:
 
-        showScreenshots(screenshots, ".png")
+        with st.expander("**Preview Screenshots**"):
+
+            st.header("Preview Screenshots:")
+
+            showScreenshots(screenshots, ".png")
 
     st.write("---")
 
