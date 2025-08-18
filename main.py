@@ -1043,7 +1043,7 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***RTac GAMMA Large Files (~2.6GB packed; ~7.5GB unpacked)***: https://www.mediafire.com/file/7q88fyjpk7cl7u1/G.A.M.M.A._Large_Files.7z/file
 
-***STALKER RTac (~11GB packed; ~45GB unpacked)***: https://www.mediafire.com/file/2sjr6a3jxkc55lq/STALKER+RTac.7z/file
+***STALKER RTac (~11GB packed; ~45GB unpacked)***: https://www.mediafire.com/file/qknlyw1s5n1ceih/STALKER+RTac.7z/file
 
 ***Arrival Anomalies - S.e.m.i.t.o.n.e. (~206MB packed; ~695MB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
 
