@@ -1192,16 +1192,21 @@ optionalslist = {
 
 }
 screenshots = [
-    "Army Warehouses Sunrise 1",
-    "Army Warehouses Sunrise 2",
-    "Army Warehouses Sunrise 3",
-    "Cordon Sunrise 1",
-    "Cordon Sunrise 2",
-    "Cordon Sunrise Closeup 1",
-    "Cordon Sunrise Closeup 2",
-    "Cordon Sunset",
+    "Cordon Sunrise",
+    "Cordon Tree Closeup",
+    "Freedom Base Sunrise (Window)",
+    "Freedom Base Sunrise",
+    "Garbage Black Market Emission",
+    "Winter Wonderland",
     "Rookie Village Campfire",
-    "Winter Wonderland"
+    "Northern Cordon Village",
+    "Meadow Bandit Base",
+    "Army Warehouses Sunset",
+    "Army Warehouses Rain",
+    "Truck Cemetery Polluted Storm (no rain)",
+    "Truck Cemetery Damaged Mask Overlay",
+    "Yantar Mobile Laboratory",
+    "Yantar Fire Anomaly"
 ]
 
 if page == "STALKER RTac":
