@@ -411,7 +411,7 @@ disabledmods = {
 
 ":green[**G.A.M.M.A.**]": {
 
-    "base shaders": """-190- Screen Space Shaders 20 - Ascii1457
+    "base shaders": """-190- Screen Space Shaders 23 - Ascii1457
 -188- Enhanced Shaders - KennShade
 -189- Beef's NVG - theRealBeef
 """,
@@ -1709,3 +1709,4 @@ elif page == "Atmospheric Preset Editor":
             st.write(f"```{preset}\n```")
 
         st.download_button(f"**Download Your Preset (:blue[{presetname}])**", data=preset, file_name=presetname)
+
