@@ -14,7 +14,7 @@ atmospresets = {
 "Realistic": """
 r__color_grading (0, 0, 0)
 
-r__saturation 0.95
+r__saturation 0.85
 r__gamma 1.
 r__exposure 1.
 scope_factor 1
@@ -41,6 +41,138 @@ ssfx_hud_hemi 0
 shader_param_1 (0.000000, 0.000000, 0.000000, 0.600000)
 shader_param_2 (0.000000, 0.000000, 0.000000, 0.050000)
 shader_param_3 (0.000000, 0.000000, 0.000000, 0.670000)
+shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
+""",
+
+"Cinematic": """
+r__color_grading (0, 0, 0)
+
+r__saturation 0.9
+r__gamma 1.
+r__exposure 1.
+scope_factor 1
+
+r2_sun_lumscale 1.
+r2_gloss_factor 0.001
+r2_gloss_min 0.56
+r2_sun_lumscale 2.5
+r2_sun_lumscale_amb 1.
+r2_sun_lumscale_hemi 1.
+r2_tonemap on
+r2_tonemap_adaptation 3.
+r2_tonemap_amount 1.
+r2_tonemap_lowlum 0.1
+r2_tonemap_middlegray 1.
+rs_c_brightness 1
+rs_c_contrast 1
+rs_c_gamma 1.
+r2_sun_depth_near_scale 0.9998
+r2_sun_depth_far_scale 0.99988
+r2_sun_tsm_bias 0
+ssfx_hud_hemi 0
+
+shader_param_1 (0.000000, 0.000000, 0.000000, 0.800000)
+shader_param_2 (0.000000, 0.000000, 0.000000, 0.020000)
+shader_param_3 (0.030000, 0.025000, 0.000000, 0.670000)
+shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
+""",
+
+"Dramatic": """
+r__color_grading (0, 0, 0)
+
+r__saturation 1.
+r__gamma 1.
+r__exposure 1.
+scope_factor 1
+
+r2_sun_lumscale 1.
+r2_gloss_factor 0.001
+r2_gloss_min 0.56
+r2_sun_lumscale 2.5
+r2_sun_lumscale_amb 1.
+r2_sun_lumscale_hemi 1.
+r2_tonemap on
+r2_tonemap_adaptation 3.
+r2_tonemap_amount 1.
+r2_tonemap_lowlum 0.1
+r2_tonemap_middlegray 1.
+rs_c_brightness 1
+rs_c_contrast 1
+rs_c_gamma 1.
+r2_sun_depth_near_scale 0.9998
+r2_sun_depth_far_scale 0.99988
+r2_sun_tsm_bias 0
+ssfx_hud_hemi 0
+
+shader_param_1 (0.000000, 0.000000, 0.000000, 0.800000)
+shader_param_2 (0.000000, 0.000000, 0.000000, 0.000000)
+shader_param_3 (0.000000, 0.000000, 0.000000, 0.70000)
+shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
+""",
+
+"Vibrant": """
+r__color_grading (0, 0, 0)
+
+r__saturation 1.2
+r__gamma 1
+r__exposure 1.
+scope_factor 1
+
+r2_sun_lumscale 1.
+r2_gloss_factor 0.001
+r2_gloss_min 0.56
+r2_sun_lumscale 2.5
+r2_sun_lumscale_amb 1.
+r2_sun_lumscale_hemi 1.
+r2_tonemap on
+r2_tonemap_adaptation 3.
+r2_tonemap_amount 1.
+r2_tonemap_lowlum 0.1
+r2_tonemap_middlegray 1.
+rs_c_brightness 1
+rs_c_contrast 1
+rs_c_gamma 1.
+r2_sun_depth_near_scale 0.9998
+r2_sun_depth_far_scale 0.99988
+r2_sun_tsm_bias 0
+ssfx_hud_hemi 0
+
+shader_param_1 (0.000000, 0.000000, 0.000000, 0.700000)
+shader_param_2 (0.000000, 0.000000, 0.000000, 0.050000)
+shader_param_3 (0.000000, 0.000000, 0.000000, 0.670000)
+shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
+""",
+
+"Nature": """
+r__color_grading (0, 0, 0)
+
+r__saturation 1.1
+r__gamma 1
+r__exposure 1.
+scope_factor 1
+
+r2_sun_lumscale 1.
+r2_gloss_factor 0.001
+r2_gloss_min 0.56
+r2_sun_lumscale 2.5
+r2_sun_lumscale_amb 1.
+r2_sun_lumscale_hemi 1.
+r2_tonemap on
+r2_tonemap_adaptation 3.
+r2_tonemap_amount 1.
+r2_tonemap_lowlum 0.1
+r2_tonemap_middlegray 1.
+rs_c_brightness 1
+rs_c_contrast 1
+rs_c_gamma 1.
+r2_sun_depth_near_scale 0.9998
+r2_sun_depth_far_scale 0.99988
+r2_sun_tsm_bias 0
+ssfx_hud_hemi 0
+
+shader_param_1 (0.000000, 0.000000, 0.000000, 0.600000)
+shader_param_2 (0.000000, 0.000000, 0.000000, 0.050000)
+shader_param_3 (0.010000, 0.005000, 0.000000, 0.670000)
 shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
 """,
 
@@ -110,105 +242,6 @@ shader_param_3 (0.060000, 0.050000, 0.000000, 0.630000)
 shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
 """,
 
-"Nature": """
-r__color_grading (0, 0, 0)
-
-r__saturation 1.1
-r__gamma 1
-r__exposure 1.
-scope_factor 1
-
-r2_sun_lumscale 1.
-r2_gloss_factor 0.001
-r2_gloss_min 0.56
-r2_sun_lumscale 2.5
-r2_sun_lumscale_amb 1.
-r2_sun_lumscale_hemi 1.
-r2_tonemap on
-r2_tonemap_adaptation 3.
-r2_tonemap_amount 1.
-r2_tonemap_lowlum 0.1
-r2_tonemap_middlegray 1.
-rs_c_brightness 1
-rs_c_contrast 1
-rs_c_gamma 1.
-r2_sun_depth_near_scale 0.9998
-r2_sun_depth_far_scale 0.99988
-r2_sun_tsm_bias 0
-ssfx_hud_hemi 0
-
-shader_param_1 (0.000000, 0.000000, 0.000000, 0.600000)
-shader_param_2 (0.000000, 0.000000, 0.000000, 0.050000)
-shader_param_3 (0.010000, 0.005000, 0.000000, 0.670000)
-shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
-""",
-
-"Night": """
-r__color_grading (0, 0, 0)
-
-r__saturation 0.75
-r__gamma 1.
-r__exposure 1.
-scope_factor 1
-
-r2_sun_lumscale 1.
-r2_gloss_factor 0.001
-r2_gloss_min 0.56
-r2_sun_lumscale 2.5
-r2_sun_lumscale_amb 1.
-r2_sun_lumscale_hemi 1.
-r2_tonemap on
-r2_tonemap_adaptation 3.
-r2_tonemap_amount 1.
-r2_tonemap_lowlum 0.1
-r2_tonemap_middlegray 1.
-rs_c_brightness 1
-rs_c_contrast 1
-rs_c_gamma 1.
-r2_sun_depth_near_scale 0.9998
-r2_sun_depth_far_scale 0.99988
-r2_sun_tsm_bias 0
-ssfx_hud_hemi 0
-
-shader_param_1 (0.000000, 0.000000, 0.000000, 0.600000)
-shader_param_2 (0.000000, 0.000000, 0.000000, 0.100000)
-shader_param_3 (0.000000, 0.000000, 0.000000, 0.670000)
-shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
-""",
-
-"Vibrant": """
-r__color_grading (0, 0, 0)
-
-r__saturation 1.2
-r__gamma 1
-r__exposure 1.
-scope_factor 1
-
-r2_sun_lumscale 1.
-r2_gloss_factor 0.001
-r2_gloss_min 0.56
-r2_sun_lumscale 2.5
-r2_sun_lumscale_amb 1.
-r2_sun_lumscale_hemi 1.
-r2_tonemap on
-r2_tonemap_adaptation 3.
-r2_tonemap_amount 1.
-r2_tonemap_lowlum 0.1
-r2_tonemap_middlegray 1.
-rs_c_brightness 1
-rs_c_contrast 1
-rs_c_gamma 1.
-r2_sun_depth_near_scale 0.9998
-r2_sun_depth_far_scale 0.99988
-r2_sun_tsm_bias 0
-ssfx_hud_hemi 0
-
-shader_param_1 (0.000000, 0.000000, 0.000000, 0.700000)
-shader_param_2 (0.000000, 0.000000, 0.000000, 0.050000)
-shader_param_3 (0.000000, 0.000000, 0.000000, 0.670000)
-shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
-""",
-
 "Mysterious": """
 r__color_grading (0, 0, 0)
 
@@ -275,27 +308,25 @@ shader_param_3 (0.020000, 0.000000, 0.050000, 0.660000)
 shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
 """,
 
-"HDR": """
+"Horror": """
 r__color_grading (0, 0, 0)
 
-r__enable_grass_shadow off
-
-r__saturation 1.1
-r__gamma 1
-r__exposure 1
+r__saturation 0.7
+r__gamma 1.
+r__exposure 1.
 scope_factor 1
 
-r2_sun_lumscale 3.
+r2_sun_lumscale 1.
 r2_gloss_factor 0.001
 r2_gloss_min 0.56
-r2_sun_lumscale 3.
-r2_sun_lumscale_amb 2.5
-r2_sun_lumscale_hemi 0.97063
+r2_sun_lumscale 2.5
+r2_sun_lumscale_amb 1.
+r2_sun_lumscale_hemi 1.
 r2_tonemap on
-r2_tonemap_adaptation 3.0
-r2_tonemap_amount 1
-r2_tonemap_lowlum 0.55
-r2_tonemap_middlegray 1.4
+r2_tonemap_adaptation 3.
+r2_tonemap_amount 1.
+r2_tonemap_lowlum 0.1
+r2_tonemap_middlegray 1.
 rs_c_brightness 1
 rs_c_contrast 1
 rs_c_gamma 1.
@@ -304,106 +335,43 @@ r2_sun_depth_far_scale 0.99988
 r2_sun_tsm_bias 0
 ssfx_hud_hemi 0
 
-shader_param_1 (1, 1, 1, -0.2)
-shader_param_2 (0, 0, 0, 0.03)
-shader_param_3 (0.0, 0.0, 0.0, 0.67)
-shader_param_4 (1.12, 1.12, 1.13, -0.4)
+shader_param_1 (0.000000, 0.000000, 0.000000, 0.800000)
+shader_param_2 (0.050000, 0.000000, 0.000000, 0.020000)
+shader_param_3 (0.000000, 0.030000, 0.050000, 0.750000)
+shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
+""",
 
-r4_hdr10_bloom_blur_passes 20
-r4_hdr10_bloom_blur_scale 1.
-r4_hdr10_bloom_intensity 0.06
-r4_hdr10_bloom_on 0
-r4_hdr10_brightness 0.
-r4_hdr10_colorspace 0
-r4_hdr10_contrast 0.29
-r4_hdr10_contrast_middle_gray 0.65
-r4_hdr10_exposure 2.55
-r4_hdr10_flare_blur_passes 12
-r4_hdr10_flare_blur_scale 1.
-r4_hdr10_flare_center_falloff 1.1
-r4_hdr10_flare_ghost_ca 3.
-r4_hdr10_flare_ghost_dispersal 0.6
-r4_hdr10_flare_ghost_intensity 0.04
-r4_hdr10_flare_ghosts 1
-r4_hdr10_flare_halo_ca 10.
-r4_hdr10_flare_halo_intensity 0.04
-r4_hdr10_flare_halo_scale 0.47
-r4_hdr10_flare_lens_color (1.000000, 0.700000, 1.000000)
-r4_hdr10_flare_on 0
-r4_hdr10_flare_power 0.04
-r4_hdr10_flare_threshold 0.
-r4_hdr10_gamma 1.4
-r4_hdr10_on 1
-r4_hdr10_pda_intensity 1.
-r4_hdr10_saturation 0.15
-r4_hdr10_sun_dawn_begin 4.5
-r4_hdr10_sun_dawn_end 6.
-r4_hdr10_sun_dusk_begin 18.5
-r4_hdr10_sun_dusk_end 21.
-r4_hdr10_sun_inner_radius 0.2
-r4_hdr10_sun_intensity 80.
-r4_hdr10_sun_on 0
-r4_hdr10_sun_outer_radius 0.4
-r4_hdr10_tonemap_mode 0
-r4_hdr10_tonemapper 5
-r4_hdr10_ui_nits 100.
-r4_hdr10_ui_saturation 1.
-r4_hdr10_whitepoint_nits 100.
+"Night": """
+r__color_grading (0, 0, 0)
 
+r__saturation 0.75
+r__gamma 1.
+r__exposure 1.
+scope_factor 1
+
+r2_sun_lumscale 1.
+r2_gloss_factor 0.001
+r2_gloss_min 0.56
+r2_sun_lumscale 2.5
+r2_sun_lumscale_amb 1.
+r2_sun_lumscale_hemi 1.
+r2_tonemap on
+r2_tonemap_adaptation 3.
+r2_tonemap_amount 1.
+r2_tonemap_lowlum 0.1
+r2_tonemap_middlegray 1.
+rs_c_brightness 1
+rs_c_contrast 1
+rs_c_gamma 1.
+r2_sun_depth_near_scale 0.9998
+r2_sun_depth_far_scale 0.99988
+r2_sun_tsm_bias 0
 ssfx_hud_hemi 0
 
-shader_param_1 (1, 1, 1, -0.2)
-shader_param_2 (0, 0, 0, 0.03)
-shader_param_3 (0.0, 0.0, 0.0, 0.67)
-shader_param_4 (1.12, 1.12, 1.13, -0.4)
-
-r4_hdr10_bloom_blur_passes 20
-r4_hdr10_bloom_blur_scale 1.
-r4_hdr10_bloom_intensity 0.06
-r4_hdr10_bloom_on 0
-r4_hdr10_brightness 0.
-r4_hdr10_colorspace 0
-r4_hdr10_contrast 0.31
-r4_hdr10_contrast_middle_gray 0.67
-r4_hdr10_exposure 5
-r4_hdr10_flare_blur_passes 12
-r4_hdr10_flare_blur_scale 1.
-r4_hdr10_flare_center_falloff 1.1
-r4_hdr10_flare_ghost_ca 3.
-r4_hdr10_flare_ghost_dispersal 0.6
-r4_hdr10_flare_ghost_intensity 0.04
-r4_hdr10_flare_ghosts 1
-r4_hdr10_flare_halo_ca 10.
-r4_hdr10_flare_halo_intensity 0.04
-r4_hdr10_flare_halo_scale 0.47
-r4_hdr10_flare_lens_color (1.000000, 0.700000, 1.000000)
-r4_hdr10_flare_on 0
-r4_hdr10_flare_power 0.04
-r4_hdr10_flare_threshold 0.
-r4_hdr10_gamma 1.5
-r4_hdr10_on 1
-r4_hdr10_pda_intensity 1.01
-r4_hdr10_saturation 0.1
-r4_hdr10_sun_dawn_begin 4.5
-r4_hdr10_sun_dawn_end 6.
-r4_hdr10_sun_dusk_begin 18.5
-r4_hdr10_sun_dusk_end 21.
-r4_hdr10_sun_inner_radius 0.2
-r4_hdr10_sun_intensity 80.
-r4_hdr10_sun_on 0
-r4_hdr10_sun_outer_radius 0.4
-r4_hdr10_tonemap_mode 1
-r4_hdr10_tonemapper 6
-r4_hdr10_ui_nits 100.
-r4_hdr10_ui_saturation 0.5
-r4_hdr10_whitepoint_nits 100.
-
-ssfx_hud_hemi 0
-
-shader_param_1 (1, 1, 1, -0.2)
-shader_param_2 (0, 0, 0, 0.03)
-shader_param_3 (0.0, 0.0, 0.0, 0.67)
-shader_param_4 (1.12, 1.12, 1.13, -0.4)
+shader_param_1 (0.000000, 0.000000, 0.000000, 0.600000)
+shader_param_2 (0.000000, 0.000000, 0.000000, 0.100000)
+shader_param_3 (0.000000, 0.000000, 0.000000, 0.670000)
+shader_param_4 (0.000000, 0.000000, 0.000000, 1.000000)
 """
 
 }
@@ -727,7 +695,7 @@ r2_ls_psm_kernel 0.7
 r2_ls_squality 0.5
 r2_ls_ssm_kernel 0.7
 r2_mask_control (0.000000, 0.000000, 0.000000, 0.000000)
-r2_mblur 0.02692
+r2_mblur 0.06121
 r2_mblur_enabled on
 r2_parallax_h 0.
 r2_qsync 0
@@ -848,8 +816,8 @@ r__bloom_thresh (0.700000, 0.800000, 0.900000, 0.000000)
 r__bloom_weight (0.330000, 0.330000, 0.330000, 0.000000)
 r__clear_models_on_unload off
 r__color_grading (0.000000, 0.000000, 0.000000)
-r__detail_density 0.34
-r__detail_height 0.7
+r__detail_density 0.32
+r__detail_height 0.8
 r__detail_radius 110
 r__dtex_range 50.
 r__enable_grass_shadow off
@@ -866,7 +834,7 @@ r__no_scale_on_fade off
 r__optimize_dynamic_geom 2
 r__optimize_shadow_geom on
 r__optimize_static_geom 2
-r__saturation 0.95
+r__saturation 0.85
 r__supersample 1
 r__tf_aniso 4
 r__tf_mipbias 0.5
@@ -879,9 +847,9 @@ rs_c_brightness 1.
 rs_c_contrast 1.
 rs_c_gamma 1.
 rs_cam_pos off
-rs_refresh_60hz off
 rs_skeleton_update 32
 rs_stats off
+rs_v_sync off
 rs_vis_distance 0.9
 s3ds_param_1 (4.000000, 4.000000, 0.300000, 0.000000)
 s3ds_param_2 (0.550000, 0.000000, 0.000000, 1.500000)
@@ -942,12 +910,12 @@ ssfx_int_grass_params_1 (1.400000, 2.000000, 2.000000, 20.000000)
 ssfx_int_grass_params_2 (1.000000, 5.000000, 0.300000, 2.000000)
 ssfx_is_underground 0
 ssfx_lightsetup_1 (0.600000, 0.600000, 0.000000, 0.000000)
-ssfx_lut (1.000000, 1.000000, 0.000000, 0.000000)
+ssfx_lut (1.000000, 10.000000, 0.000000, 0.000000)
 ssfx_motionblur (8.000000, 0.500000, 0.000000, 1.000000)
 ssfx_pom (16.000000, 12.000000, 0.035000, 0.500000)
 ssfx_pom_refine 0
-ssfx_rain_1 (1.600000, 0.030000, 1.000000, 0.000000)
-ssfx_rain_2 (1.000000, 0.000000, 1.200000, 0.600000)
+ssfx_rain_1 (1.000000, 0.030000, 2.000000, 0.000000)
+ssfx_rain_2 (1.000000, 0.250000, 1.200000, 0.600000)
 ssfx_rain_3 (0.200000, 3.000000, 0.000000, 0.000000)
 ssfx_rain_drops_setup (2500.000000, 15.000000, 0.000000, 0.000000)
 ssfx_shadow_bias (0.400000, 0.030000, 0.000000)
@@ -961,7 +929,7 @@ ssfx_sss_quality (12.000000, 4.000000, 1.000000, 1.000000)
 ssfx_taa (1.000000, 0.500000, 0.000000, 0.000000)
 ssfx_terrain_grass_align 1
 ssfx_terrain_grass_slope 1.
-ssfx_terrain_offset (-0.070000, -0.050000, -0.130000, 0.000000)
+ssfx_terrain_offset (-0.130000, -0.130000, -0.130000, -0.130000)
 ssfx_terrain_pom (12.000000, 20.000000, 0.040000, 1.000000)
 ssfx_terrain_pom_refine 0
 ssfx_terrain_quality (8.000000, 0.000000, 0.000000, 0.000000)
@@ -980,14 +948,11 @@ ssfx_wpn_dof_2 0.15
 string_table_error_msg 0
 telekinetic_objects_include_corpses 0
 texture_lod 0
-use_english_text_for_missing_translations 1
-use_separate_ubgl_keybind 1
+time_factor 1.000000
 viewport_near 0.2
 vignette_control (0.000000, 0.000000, 0.000000, 0.000000)
+weapon_sway on
 zoom_step_count 10.
-rs_borderless 1
-rs_fullscreen off
-rs_screenmode borderless
 """
 caminert = """
 cam_inert 0.1
@@ -1001,11 +966,11 @@ Download these modded exes: https://github.com/themrdemonized/xray-monolith/rele
 
 Then, download and install these files **in the order shown** using the links below; install them through MO2, placing them at the bottom of your modlist. Because of the size of the mod, MO2 may freeze during the installation; just wait for a bit for the mod to be installed and MO2 will be functional again.
 
-**Miracle Graphics Pack MAIN FILE: https://drive.google.com/uc?export=download&id=1XzKTUQE4r-YWH-iCYQbU-DoB8QQWE5vZ**
+***Miracle Graphics Pack MAIN (~11GB packed; up to ~35GB unpacked)***: https://drive.google.com/uc?export=download&id=1zPwklHv8XwsPA-9eDy6pnEaCIFhSP1XE
 
-**Miracle Graphics OPTIONALS: https://drive.google.com/uc?export=download&id=1vRapKMPzpJnd79mvOVgQ7xKOMhqhPgUt**
+***Miracle Graphics Seasonals (~10GB packed; ~5-7GB unpacked)***: https://drive.google.com/uc?export=download&id=1iCAlpFLiJKaZH3Y04LodlCcxL2W4dtTG
 
-**RESHADE 6.3.3 DX11: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy**
+***RESHADE 6.3.3 DX11 (~115MB packed; ~240MB unpacked)***: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy
 
 You can also get **STALKER RTac**, which is a modpack full of mods to greatly enhance the realism and immersiveness of the zone. Certain mods that are disabled may be re-enabled, but they might cause issues. I'll offer as much support for them as I can.
 
@@ -1019,7 +984,7 @@ rtac = {
     "intro": """---
 **STALKER RTac** is a modpack designed around making STALKER Anomaly as realistic as possible, featuring a Cold System, constant psy drain, modified item effects, a realistic body health system, HUD changes, reanimations, and so much more.
 
-If you haven't already, please join the **STALKER RTac Discord Server** at ***https://discord.gg/mAEhFkyfTj***, to get tech support, update notifications, announcements and other information and support regarding the modpack.
+If you haven't already, go ahead and join the **STALKER RTac Discord Server** at ***https://discord.gg/mAEhFkyfTj***, to get tech support, update notifications, announcements and other information and support regarding the modpack.
 
 ---""",
 
@@ -1034,9 +999,9 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***RTac MO2 (~187MB packed; ~603MB unpacked)***: https://www.mediafire.com/file/leoujwhlbsuzowe/RTac+MO2.7z/file
 
-***Miracle Graphics Pack MAIN FILE (~10GB packed; ~20GB unpacked)***: https://drive.google.com/uc?export=download&id=1XzKTUQE4r-YWH-iCYQbU-DoB8QQWE5vZ
+***Miracle Graphics Pack MAIN (~11GB packed; up to ~35GB unpacked)***: https://drive.google.com/uc?export=download&id=1zPwklHv8XwsPA-9eDy6pnEaCIFhSP1XE
 
-***Miracle Graphics OPTIONALS (~10GB packed; ~9GB unpacked)***: https://drive.google.com/uc?export=download&id=1vRapKMPzpJnd79mvOVgQ7xKOMhqhPgUt
+***Miracle Graphics Seasonals (~10GB packed; ~5-7GB unpacked)***: https://drive.google.com/uc?export=download&id=1iCAlpFLiJKaZH3Y04LodlCcxL2W4dtTG
 
 ***RESHADE 6.3.3 DX11 (~115MB packed; ~240MB unpacked)***: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy
 
@@ -1044,9 +1009,9 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***RTac GAMMA Large Files (~2.6GB packed; ~7.5GB unpacked)***: https://www.mediafire.com/file/7q88fyjpk7cl7u1/G.A.M.M.A._Large_Files.7z/file
 
-***STALKER RTac (~11GB packed; ~45GB unpacked)***: https://www.mediafire.com/file/qknlyw1s5n1ceih/STALKER+RTac.7z/file
+***STALKER RTac (~12GB packed; ~47GB unpacked)***: https://www.mediafire.com/file/4ai4su8ibhcgpuj/STALKER+RTac.7z/file
 
-***Arrival Anomalies - S.e.m.i.t.o.n.e. (~206MB packed; ~695MB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
+***Arrival Anomalies - S.e.m.i.t.o.n.e.***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
 
 The **final installation size** comes out to **around 120GB**, though I'd recommend clearing out **200GB** in advance to avoid issues.
 
