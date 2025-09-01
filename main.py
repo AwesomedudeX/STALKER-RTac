@@ -1091,7 +1091,11 @@ mainlist = {
 
     "maps": """
 **Re.Pack PDA Package V1.3**: Adds 16K PDA maps that add even more detail and zooming capability to your PDA.
-    """
+    """,
+
+    "luts": """
+    **Atmospherics Pre-SSS 22 LUTs:** Realistic, neutral LUTs from Atmospherics before the Screen Space Shaders 22 update. Courtesy of Shahryar.
+"""
 
 }
 optionalslist = {
@@ -1153,8 +1157,8 @@ optionalslist = {
     """,
 
     "luts": """
-    **Atmospherics Pre-SSS 22 LUTs:** The LUTs from Atmospherics before the Screen Space Shaders 22 update. Courtesy of Shahryar.
-""",
+    **Atmospherics Pre-SSS 22 LUTs:** Realistic, neutral LUTs from Atmospherics before the Screen Space Shaders 22 update. Courtesy of Shahryar.
+"""
 
 }
 screenshots = [
@@ -1225,7 +1229,7 @@ if page == "Miracle Graphics Pack":
     st.write(":grey[Textures are shown in the order in which they are loaded]")
 
     c1, c2 = st.columns(2)
-    ex1, ex2 = c1.expander("**Main Pack**"), c2.expander("**Optionals Pack**")
+    ex1, ex2 = c1.expander("**Main Pack**"), c2.expander("**Seasonals Pack**")
 
     with ex1:
 
@@ -1240,6 +1244,9 @@ if page == "Miracle Graphics Pack":
 
         st.header("16K PDA Maps:")
         st.write(mainlist["maps"])
+
+        st.header("Miracle LUTs:")
+        st.write(optionalslist["luts"])
 
     with ex2:
         st.header("Seasonal Mods:")
@@ -1260,7 +1267,7 @@ if page == "Miracle Graphics Pack":
         st.header("RTac Weather:")
         st.write(optionalslist["weather"])
 
-        st.header("RTac LUTs:")
+        st.header("Miracle LUTs:")
         st.write(optionalslist["luts"])
 
 elif page == "Modlist Compatibility":
