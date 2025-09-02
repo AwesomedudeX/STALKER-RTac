@@ -1013,7 +1013,7 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***Arrival Anomalies - S.e.m.i.t.o.n.e.***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
 
-The **final installation size** comes out to **around 120GB**, though I'd recommend clearing out **200GB** in advance to avoid issues.
+The **final installation size** comes out to **around 145GB**, though I'd recommend clearing out **200GB** in advance to avoid issues.
 
 ---""",
 
@@ -1203,7 +1203,7 @@ if page == "STALKER RTac":
     
     st.write(rtac['conclusion'])
 
-if page == "Miracle Graphics Pack":
+elif page == "Miracle Graphics Pack":
 
     st.title("Miracle Graphics Pack")
     st.write("---")
