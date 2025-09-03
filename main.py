@@ -978,7 +978,9 @@ Head to the **STALKER RTac** page for instructions on how to install it - I high
 
 From there, if you are not getting **STALKER RTac** (you are only getting **Miracle Graphics Pack**), follow the instructions on the **Modlist Compatibility** and **MCM Settings For SSS** pages on this site to modify your settings and mod list files to work with this pack.
 
-Finally, open the game and type `cfg_load Realistic` into the game console to load the atmospheric settings. If you are using **STALKER RTac**, I recommend getting ALL of my graphics settings to ensure everything works properly.
+Finally, open the game and type `cfg_load [preset]` into the game console to load the atmospheric settings; the "default" preset is `realistic`, but you can choose from any of the available presets, which can be viewed on both the **main pack installer** and the `# atmospheric-presets-preview` channel on the official **STALKER RTac** Discord server.
+
+If you are using **STALKER RTac**, I also recommend getting my graphics settings to ensure everything works properly through the `Awesomedude's Graphics Settings` page.
 """
 rtac = {
     "intro": """---
@@ -1054,7 +1056,9 @@ Finally, open Mod Organizer 2, right-click the **first (top) mod** in under the 
 """,
 
     "conclusion": """---
-Now, you can play **STALKER RTac**. **Launch the game using the Anomaly Launcher** to avoid modified executable issues, and **enjoy the game**! Make sure to enter `cfg_load realistic` in the game console (in-game; open it with the `~` key) to load the **Realistic** LTX config file, which will change your shader and post-processing settings to those in the preset.
+Now, you can play **STALKER RTac**. **Launch the game using the Anomaly Launcher** to avoid modified executable issues, and **enjoy the game**! Once the game loads up, open the console and type `cfg_load [preset]` into the game console to load the atmospheric settings; the "default" preset is `realistic`, but you can choose from any of the available presets, which can be viewed on both the **main pack installer** and the `# atmospheric-presets-preview` channel on the official **STALKER RTac** Discord server.
+
+I also recommend getting my graphics settings to ensure everything works properly, by following the instructions on the `Awesomedude's Graphics Settings` page.
 
 You can load any preset you like. The format for this command `cfg_load [preset]`; instead of `[preset]`, use any of the following presets: `realistic`, `gloomy` (slightly desaturated, depressing look), `dull` (desaturated, bleak look), `vibrant` (vivid and saturated look), `nature` (natural, full-of-life look), `mysterious`, `apocalpse` (polluted, irradiated look), `night` (mimics eye behaviour at night), or `hdr` (**only for HDR**).
 
