@@ -1007,11 +1007,11 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***RESHADE 6.3.3 DX11 (~115MB packed; ~240MB unpacked)***: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy
 
-***RTac GAMMA Mods (~8.7GB packed; ~31.4GB unpacked)***: https://www.mediafire.com/file/dkmc8lacyxks0gu/RTac+GAMMA+Mods.7z/file
+***RTac GAMMA Mods (~8.7GB packed; ~31.4GB unpacked)***: https://www.mediafire.com/file/g8jm975cuqxjx5q/RTac+GAMMA+Mods.7z/file
 
-***RTac GAMMA Large Files (~2.6GB packed; ~7.5GB unpacked)***: https://www.mediafire.com/file/7q88fyjpk7cl7u1/G.A.M.M.A._Large_Files.7z/file
+***RTac GAMMA Large Files (~2.7GB packed; ~10GB unpacked)***: https://www.mediafire.com/file/rscrhg1wbz4t9m0/RTac+GAMMA+Large+Mods.7z/file
 
-***STALKER RTac (~12GB packed; ~47GB unpacked)***: https://www.mediafire.com/file/4ai4su8ibhcgpuj/STALKER+RTac.7z/file
+***STALKER RTac (~11GB packed; ~46GB unpacked)***: https://www.mediafire.com/file/ctetuhujux4cwau/STALKER+RTac.7z/file
 
 ***Arrival Anomalies - S.e.m.i.t.o.n.e.***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
 
