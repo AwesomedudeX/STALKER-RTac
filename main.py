@@ -993,7 +993,7 @@ If you haven't already, go ahead and join the **STALKER RTac Discord Server** at
     "reqsfiles": """---
 **STALKER RTac** runs on **STALKER Anomaly**, which is a **standalone mod** for many games in the **STALKER series**. **You will need this to run RTac**.
 
-Along with that, you will need some other files, including **modified engine files** (modded exes), **Miracle Graphics Pack** and the `RTac MO2.7z` file. **You will not need to reinstall STALKER Anomaly if you already use it**. You will not need the `RTac MO2.7z` file if you are planning to install this **alongside an existing modpack**. To open these files, I highly recommend using **7Zip**, which you can download at https://www.7zip.com/ - **ensure you open the archive with 7Zip, highlight the files inside, and drag them to your target location**. Here are links to **all of the files** that you will need for the installation:
+Along with that, you will need some other files, including **modified engine files** (modded exes), **Miracle Graphics Pack** and the `RTac MO2.7z` file. **You will not need to reinstall STALKER Anomaly if you already use it**. You will not need the `RTac MO2.7z` file if you are planning to install this **alongside an existing modpack**. To open these files, I highly recommend using **7Zip**, which you can download at https://www.7zip.com/ - **ensure you open the archive with 7Zip, highlight the files inside, and drag them to your target location**. Here are links to **all** of the files that you will **need for the installation:
 
 ***STALKER Anomaly 1.5.3 (~9GB packed; ~15GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-153
 
@@ -1009,7 +1009,7 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***RTac GAMMA Mods (~8.7GB packed; ~31.4GB unpacked)***: https://www.mediafire.com/file/g8jm975cuqxjx5q/RTac+GAMMA+Mods.7z/file
 
-***RTac GAMMA Large Files (~2.7GB packed; ~10GB unpacked)***: https://www.mediafire.com/file/rscrhg1wbz4t9m0/RTac+GAMMA+Large+Mods.7z/file
+***RTac GAMMA Large Mods (~2.7GB packed; ~10GB unpacked)***: https://www.mediafire.com/file/rscrhg1wbz4t9m0/RTac+GAMMA+Large+Mods.7z/file
 
 ***STALKER RTac (~11GB packed; ~46GB unpacked)***: https://www.mediafire.com/file/ctetuhujux4cwau/STALKER+RTac.7z/file
 
