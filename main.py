@@ -962,7 +962,7 @@ fov 100.
 hud_fov 0.8
 hud_fov_aim_factor 0."""
 mgp = """
-Download these modded exes: https://github.com/themrdemonized/xray-monolith/releases/download/2025.8.12/STALKER-Anomaly-modded-exes_2025.8.12.zip, open the file in 7Zip, and extract ALL the files into your Anomaly folder.
+Download these modded exes: https://github.com/themrdemonized/xray-monolith/releases/download/2025.9.19/STALKER-Anomaly-modded-exes_2025.9.19.zip, open the file in 7Zip, and extract ALL the files into your Anomaly folder.
 
 Then, download and install these files **in the order shown** using the links below; install them through MO2, placing them at the bottom of your modlist. Because of the size of the mod, MO2 may freeze during the installation; just wait for a bit for the mod to be installed and MO2 will be functional again.
 
@@ -997,11 +997,11 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***STALKER Anomaly 1.5.3 (~9GB packed; ~15GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-153
 
-***Modded Exes (~64MB packed; ~159MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.8.12/STALKER-Anomaly-modded-exes_2025.8.12.zip
+***Modded Exes (~72MB packed; ~196MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.9.19/STALKER-Anomaly-modded-exes_2025.9.19.zip
 
 ***RTac MO2 (~187MB packed; ~603MB unpacked)***: https://www.mediafire.com/file/leoujwhlbsuzowe/RTac+MO2.7z/file
 
-***Miracle Graphics Pack MAIN (~11GB packed; up to ~35GB unpacked)***: https://drive.google.com/uc?export=download&id=1zPwklHv8XwsPA-9eDy6pnEaCIFhSP1XE
+***Miracle Graphics Pack MAIN (~11GB packed; up to ~32GB unpacked)***: https://drive.google.com/uc?export=download&id=1zPwklHv8XwsPA-9eDy6pnEaCIFhSP1XE
 
 ***Miracle Graphics Seasonals (~10GB packed; ~5-7GB unpacked)***: https://drive.google.com/uc?export=download&id=1iCAlpFLiJKaZH3Y04LodlCcxL2W4dtTG
 
@@ -1032,9 +1032,9 @@ From there, open the **modded exes** file in **7Zip**, **select** the files insi
     "instp2": """
 **If you have another modpack installed (that uses MO2)**, you may not need to perform this step.
 
-Create another folder **on your base drive**, and name it `GAMMA`. Open the `RTac MO2.7z` file, and **extract ALL the files inside** to your `GAMMA` folder.
+Create another folder **on your base drive**, and name it `RTac`. Open the `RTac MO2.7z` file, and **extract ALL the files inside** to your `RTac` folder.
 
-After that, **open MO2** by running `ModOrganizer.exe` (which is inside of your GAMMA folder) and install **both** of the **Miracle Graphics Pack** files, as well as the `ReShade 6.3.3 DX11.7z`.
+After that, **open MO2** by running `ModOrganizer.exe` (which is inside of your `RTac` folder) and install **both** of the **Miracle Graphics Pack** files, as well as the `ReShade 6.3.3 DX11.7z`.
 
 You can do this by clicking on the **folder icon** in the **top left**, and opening the file. **Follow the instructions on the installer** for each one. I **highly suggest** selecting all available options for the best experience, excluding any options that may cause incompatibilities (eg. ATO 5 Ground Textures, which are incompatible with Winter). Ensure you select **both** preset options in the main pack, so that you can use them during gameplay.
 
@@ -1042,13 +1042,11 @@ Also, **ensure you don't rename the mods**, as it will be necessary for the modl
 """,
 
     "instp3": """
-**If you have GAMMA installed**, you may not need to perform this step, though I'd recommend deleting **all of your GAMMA mods**, and proceeding from there.
-
-Extract the contents of the `RTac GAMMA Mods.7z` and the `RTac GAMMA Large Files.7z` files to your `GAMMA/mods/` folder, by opening them in **7Zip**, selecting all the files (with Ctrl+A), and dragging them into the `GAMMA/mods/` folder.
+Extract the contents of the `RTac GAMMA Mods.7z` and the `RTac GAMMA Large Files.7z` files to your `RTac/mods/` folder, by opening them in **7Zip**, selecting all the files (with Ctrl+A), and dragging them into the `RTac/mods/` folder.
 """,
 
     "instp4": """
-After that, **extract ALL the contents** of the `STALKER RTac.7z` file to your `GAMMA` folder, and **replace any existing files** if you are prompted.
+After that, **extract ALL the contents** of the `STALKER RTac.7z` file to your `RTac` folder, and **replace any existing files** if you are prompted.
 
 Once that's done, go to your `Anomaly/appdata/` folder, and **delete** the `shaders_cache` folder **if it's there**. If it isn't, **don't worry** - it's not an issue.
 
@@ -1398,7 +1396,7 @@ elif page == "ReShade File Finder":
 
     st.write("This page will give you the path to your ReShade file. Just enter the information below (highlight a folder in File Explorer and use `Ctrl+Shift+C` to copy its path), and hit **Locate**. Then, the path of the ReShade presets folder will show below. Copy it and paste it in the ReShade menu, and select the ReShade preset that you want.")
 
-    gammapath = st.text_input("Enter the file path of your **GAMMA** folder:")
+    gammapath = st.text_input("Enter the file path of your **RTac/GAMMA** folder:")
     rename = st.checkbox("Did you rename the **Miracle Graphics Pack** mod?")
     name = "Miracle Graphics Pack"
     separator = "/"
