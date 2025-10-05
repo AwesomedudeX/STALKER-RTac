@@ -999,7 +999,7 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***Modded Exes (~72MB packed; ~196MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.9.19/STALKER-Anomaly-modded-exes_2025.9.19.zip
 
-***RTac MO2 (~187MB packed; ~603MB unpacked)***: https://www.mediafire.com/file/leoujwhlbsuzowe/RTac+MO2.7z/file
+***RTac MO2 (~187MB packed; ~603MB unpacked)***: https://www.mediafire.com/file/y31mzju57mqdlga/RTac+MO2.7z/file
 
 ***Miracle Graphics Pack MAIN (~11GB packed; up to ~32GB unpacked)***: https://drive.google.com/uc?export=download&id=1zPwklHv8XwsPA-9eDy6pnEaCIFhSP1XE
 
@@ -1007,15 +1007,13 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***RESHADE 6.3.3 DX11 (~115MB packed; ~240MB unpacked)***: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy
 
-***RTac GAMMA Mods (~8.7GB packed; ~31.4GB unpacked)***: https://www.mediafire.com/file/g8jm975cuqxjx5q/RTac+GAMMA+Mods.7z/file
+***RTac GAMMA Mods (~8.7GB packed; ~31.4GB unpacked)***: https://www.mediafire.com/file/5evlu5t7ewm3mrj/RTac+GAMMA+Mods.7z/file
 
-***RTac GAMMA Large Mods (~2.7GB packed; ~10GB unpacked)***: https://www.mediafire.com/file/rscrhg1wbz4t9m0/RTac+GAMMA+Large+Mods.7z/file
-
-***STALKER RTac (~15GB packed; ~58GB unpacked)***: https://www.mediafire.com/file/7cicbv4f760kkt4/STALKER+RTac.7z/file
+***STALKER RTac (~16GB packed; ~63GB unpacked)***: https://www.mediafire.com/file/sqzya63esbl0t4p/STALKER+RTac.7z/file
 
 ***Arrival Anomalies - S.e.m.i.t.o.n.e.***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
 
-The **final installation size** comes out to **around 150GB**, though I'd recommend clearing out **200GB** in advance to avoid any issues with installation.
+The **final installation size** comes out to **~150GB**, though I'd recommend clearing out **200GB** in advance to avoid any issues with installation.
 
 ---""",
 
@@ -1042,7 +1040,7 @@ Also, **ensure you don't rename the mods**, as it will be necessary for the modl
 """,
 
     "instp3": """
-Extract the contents of the `RTac GAMMA Mods.7z` and the `RTac GAMMA Large Files.7z` files to your `RTac/mods/` folder, by opening them in **7Zip**, selecting all the files (with Ctrl+A), and dragging them into the `RTac/mods/` folder.
+Extract the contents of the `RTac GAMMA Mods.7z` file to your `RTac` folder, by opening it in **7Zip**, selecting the `mods` folder inside, and dragging it into the `RTac` folder.
 """,
 
     "instp4": """
