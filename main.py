@@ -993,27 +993,25 @@ If you haven't already, go ahead and join the **STALKER RTac Discord Server** at
     "reqsfiles": """---
 **STALKER RTac** runs on **STALKER Anomaly**, which is a **standalone mod** for many games in the **STALKER series**. **You will need this to run RTac**.
 
+You will also need **7Zip** for this installation (do not use WinRAR, as it can lead to issues). You can download it here if you don't have it: https://www.7zip.com/
+
 Along with that, you will need some other files, including **modified engine files** (modded exes), **Miracle Graphics Pack** and the `RTac MO2.7z` file. **You will not need to reinstall STALKER Anomaly if you already use it**. You will not need the `RTac MO2.7z` file if you are planning to install this **alongside an existing modpack**. To open these files, I highly recommend using **7Zip**, which you can download at https://www.7zip.com/ - **ensure you open the archive with 7Zip, highlight the files inside, and drag them to your target location**. Here are links to **all** of the files that you will **need for the installation:
 
-***STALKER Anomaly 1.5.3 (~9GB packed; ~15GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-153
+***STALKER RTac (~21.4GB packed; ~85GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/addons/stalker-real-tactical
 
-***Modded Exes (~72MB packed; ~196MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.9.19/STALKER-Anomaly-modded-exes_2025.9.19.zip
+***STALKER Anomaly 1.5.3 (ModDB: ~9GB packed; ~15GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-153
 
-***RTac MO2 (~187MB packed; ~603MB unpacked)***: https://www.mediafire.com/file/y31mzju57mqdlga/RTac+MO2.7z/file
+***X-Ray Monolith Modified Exes (GitHub: ~72MB packed; ~196MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.9.19/STALKER-Anomaly-modded-exes_2025.9.19.zip
 
-***Miracle Graphics Pack MAIN (~11GB packed; up to ~32GB unpacked)***: https://drive.google.com/uc?export=download&id=1zPwklHv8XwsPA-9eDy6pnEaCIFhSP1XE
+***Miracle Graphics Pack MAIN (Google Drive: ~11GB packed; up to ~32GB unpacked)***: https://drive.google.com/uc?export=download&id=1zPwklHv8XwsPA-9eDy6pnEaCIFhSP1XE
 
-***Miracle Graphics Seasonals (~10GB packed; ~5-7GB unpacked)***: https://drive.google.com/uc?export=download&id=1iCAlpFLiJKaZH3Y04LodlCcxL2W4dtTG
+***Miracle Graphics Seasonals (Google Drive: ~10GB packed; ~5-7GB unpacked)***: https://drive.google.com/uc?export=download&id=1iCAlpFLiJKaZH3Y04LodlCcxL2W4dtTG
 
-***RESHADE 6.3.3 DX11 (~115MB packed; ~240MB unpacked)***: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy
+***RESHADE 6.3.3 DX11 (Google Drive: ~115MB packed; ~240MB unpacked)***: https://drive.google.com/uc?export=download&id=1XiLQLt8_BdfBLbGyobAYtzebaDATjvIy
 
-***RTac GAMMA Mods (~5.4GB packed; ~17GB unpacked)***: https://www.mediafire.com/file/5evlu5t7ewm3mrj/RTac+GAMMA+Mods.7z/file
+***Arrival Anomalies - S.e.m.i.t.o.n.e. (ModDB: File size changes with updates)***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
 
-***STALKER RTac (~16GB packed; ~63GB unpacked)***: https://www.mediafire.com/file/qkov6wy867pd1nu/STALKER+RTac.7z/file
-
-***Arrival Anomalies - S.e.m.i.t.o.n.e.***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
-
-The **final installation size** comes out to **~150GB**, though I'd recommend clearing out **200GB** in advance to avoid any issues with installation.
+The **final installation size** comes out to **~145GB**, though I'd recommend clearing out **200GB** in advance to avoid any issues with installation.
 
 ---""",
 
@@ -1028,27 +1026,17 @@ From there, open the **modded exes** file in **7Zip**, **select** the files insi
 """,
 
     "instp2": """
-**If you have another modpack installed (that uses MO2)**, you may not need to perform this step.
+Create another folder **on your base drive**, and name it `RTac`.
 
-Create another folder **on your base drive**, and name it `RTac`. Open the `RTac MO2.7z` file, and **extract ALL the files inside** to your `RTac` folder.
+Then, **extract ALL the contents** of the `STALKER RTac.7z` file to your `RTac` folder.
 
-After that, **open MO2** by running `ModOrganizer.exe` (which is inside of your `RTac` folder) and install **both** of the **Miracle Graphics Pack** files, as well as the `ReShade 6.3.3 DX11.7z`.
+Once that's done, **open MO2** by running `ModOrganizer.exe` (which is inside of your `RTac` folder) and install **both** of the **Miracle Graphics Pack** files, as well as the `ReShade 6.3.3 DX11.7z` file into the **RTac Graphics** separator.
 
-You can do this by clicking on the **folder icon** in the **top left**, and opening the file. **Follow the instructions on the installer** for each one. I **highly suggest** selecting all available options for the best experience, excluding any options that may cause incompatibilities (eg. ATO 5 Ground Textures, which are incompatible with Winter). Ensure you select **both** preset options in the main pack, so that you can use them during gameplay.
+To do this, right-click on the **RTac Graphics** separator, hover over `All Mods` and click `Install mod inside...`. Select the file once prompted, and **follow the instructions on the installer** for each one. Ensure to install the main pack first, then the seasonals, and finally, ReShade. I **highly suggest** selecting all available options for the best experience, excluding any options that may cause incompatibilities (eg. ATO 5 Ground Textures, which are incompatible with Winter). Ensure you select **both** preset options in the main pack, so that you can use them during gameplay.
 
-Also, **ensure you don't rename the mods**, as it will be necessary for the modlist to be configured properly.
-""",
+Once that's done, enable all 3 mods by clicking on the checkbox to the left of each one. Next, expand the **RTac Visuals & Actor Animations** separator by clicking on the arrow to the left of its name. If the arrow is pointing down, the separator has been expanded. Right-click the **first (top) mod** under the **RTac Visuals & Actor Animations** separator, hover over `All Mods`, and click `Install mod above...`. Then, **install Arrival Anomalies** with your preferred settings, and enable it by clicking the checkbox on the **left** side of the screen. Your load order should look like the image below.
 
-    "instp3": """
-Extract the contents of the `RTac GAMMA Mods.7z` file to your `RTac` folder, by opening it in **7Zip**, selecting the `mods` folder inside, and dragging it into the `RTac` folder.
-""",
-
-    "instp4": """
-After that, **extract ALL the contents** of the `STALKER RTac.7z` file to your `RTac` folder, and **replace any existing files** if you are prompted.
-
-Once that's done, go to your `Anomaly/appdata/` folder, and **delete** the `shaders_cache` folder **if it's there**. If it isn't, **don't worry** - it's not an issue.
-
-Finally, open Mod Organizer 2, right-click the **first (top) mod** in under the `RTac Visuals & Actor Animations` separator, hover over `All Mods`, and click `Install mod above...`. Then, **install Arrival Anomalies** with your preferred settings, and enable it by clicking the checkbox on the **left** side of the screen. Your load order should look like the image below:
+Finally, go to your `Anomaly/appdata/` folder, and **delete** the `shaders_cache` folder **if it's there**. If it isn't, **don't worry** - it's not an issue.
 """,
 
     "conclusion": """---
@@ -1192,13 +1180,8 @@ if page == "STALKER RTac":
 
     st.write(rtac['instp1'])
     st.header("\n")
-    st.write(rtac['instp2'])
-    st.header("\n")
-    st.write(rtac['instp3'])
-    st.header("\n")
-
     st.write("---")
-    st.write(rtac['instp4'])
+    st.write(rtac['instp2'])
     st.image("ArrivalLoadOrder.png")
     
     st.write(rtac['conclusion'])
@@ -1682,4 +1665,3 @@ elif page == "Atmospheric Preset Editor":
             st.write(f"```{preset}\n```")
 
         st.download_button(f"**Download Your Preset (:blue[{presetname}])**", data=preset, file_name=presetname)
-
