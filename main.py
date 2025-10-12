@@ -995,7 +995,7 @@ If you haven't already, go ahead and join the **STALKER RTac Discord Server** at
 
 You will also need **7Zip** for this installation (do not use WinRAR, as it can lead to issues). You can download it here if you don't have it: https://www.7zip.com/
 
-Along with that, you will need some other files, including **modified engine files** (modded exes), **Miracle Graphics Pack** and the `RTac MO2.7z` file. **You will not need to reinstall STALKER Anomaly if you already use it**. You will not need the `RTac MO2.7z` file if you are planning to install this **alongside an existing modpack**. To open these files, I highly recommend using **7Zip**, which you can download at https://www.7zip.com/ - **ensure you open the archive with 7Zip, highlight the files inside, and drag them to your target location**. Here are links to **all** of the files that you will **need for the installation:
+Along with that, you will need some other files. **You will not need to reinstall STALKER Anomaly if you already have version 1.5.3**. To extract files during this installation, **open the archive with 7Zip, highlight the files inside, and drag them to your target location**. Here are links to **all** of the files that you will need for the installation:
 
 ***STALKER RTac (~21.4GB packed; ~85GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/addons/stalker-real-tactical
 
