@@ -1009,7 +1009,7 @@ Along with that, you will need some other files, including **modified engine fil
 
 ***RTac GAMMA Mods (~5.4GB packed; ~17GB unpacked)***: https://www.mediafire.com/file/5evlu5t7ewm3mrj/RTac+GAMMA+Mods.7z/file
 
-***STALKER RTac (~16GB packed; ~63GB unpacked)***: https://www.mediafire.com/file/sqzya63esbl0t4p/STALKER+RTac.7z/file
+***STALKER RTac (~16GB packed; ~63GB unpacked)***: https://www.mediafire.com/file/qkov6wy867pd1nu/STALKER+RTac.7z/file
 
 ***Arrival Anomalies - S.e.m.i.t.o.n.e.***: https://www.moddb.com/mods/stalker-anomaly/addons/arrival-anomalies
 
@@ -1682,3 +1682,4 @@ elif page == "Atmospheric Preset Editor":
             st.write(f"```{preset}\n```")
 
         st.download_button(f"**Download Your Preset (:blue[{presetname}])**", data=preset, file_name=presetname)
+
