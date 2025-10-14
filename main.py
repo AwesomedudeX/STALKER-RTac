@@ -1042,7 +1042,7 @@ Finally, go to your `Anomaly/appdata/` folder, and **delete** the `shaders_cache
     "conclusion": """---
 Now, you can play **STALKER RTac**. **Launch the game using the Anomaly Launcher** to avoid modified executable issues, and **enjoy the game**! Once the game loads up, open the console and type `cfg_load [preset]` into the game console to load the atmospheric settings; the "default" preset is `realistic`, but you can choose from any of the available presets, which can be viewed on both the **main pack installer** and the `# atmospheric-presets-preview` channel on the official **STALKER RTac** Discord server.
 
-I also recommend getting my graphics settings to ensure everything works properly, by following the instructions on the `Awesomedude's Graphics Settings` page.
+I also recommend getting my recommended settings to ensure everything works properly, by following the instructions on the `# recommended-settings` channel.
 
 You can load any preset you like. The format for this command `cfg_load [preset]`; instead of `[preset]`, use any of the presets in the `# atmospheric-presets-preview` channel; the "default" preset being the `Realistic` preset.
 
