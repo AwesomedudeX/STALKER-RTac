@@ -1044,7 +1044,7 @@ Now, you can play **STALKER RTac**. **Launch the game using the Anomaly Launcher
 
 I also recommend getting my recommended settings to ensure everything works properly, by following the instructions on the `# recommended-settings` channel.
 
-You can load any preset you like. The format for this command `cfg_load [preset]`; instead of `[preset]`, use any of the presets in the `# atmospheric-presets-preview` channel; the "default" preset being the `Realistic` preset.
+You can load any preset you like. The format for this command `cfg_load [preset]`; instead of `[preset]`, use any of the presets in the `# atmospheric-presets-preview` channel.
 
 If you would like my `user.ltx` (game settings) file, ping me and ask for it in the `# tech-support` channel, and I'll send it to you when I can.
 
