@@ -1044,7 +1044,7 @@ Now, you can play **STALKER RTac**. **Launch the game using the Anomaly Launcher
 
 I also recommend getting my graphics settings to ensure everything works properly, by following the instructions on the `Awesomedude's Graphics Settings` page.
 
-You can load any preset you like. The format for this command `cfg_load [preset]`; instead of `[preset]`, use any of the following presets: `realistic`, `gloomy` (slightly desaturated, depressing look), `dull` (desaturated, bleak look), `vibrant` (vivid and saturated look), `nature` (natural, full-of-life look), `mysterious`, `apocalpse` (polluted, irradiated look), `night` (mimics eye behaviour at night), or `hdr` (**only for HDR**).
+You can load any preset you like. The format for this command `cfg_load [preset]`; instead of `[preset]`, use any of the presets in the `# atmospheric-presets-preview` channel; the "default" preset being the `Realistic` preset.
 
 If you would like my `user.ltx` (game settings) file, ping me and ask for it in the `# tech-support` channel, and I'll send it to you when I can.
 
