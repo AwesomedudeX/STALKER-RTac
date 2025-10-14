@@ -1025,7 +1025,7 @@ Once it's done extracting, run `AnomalyLauncher.exe`, select your preferred opti
 From there, open the **modded exes** file in **7Zip**, **select** the files inside of this file, and **extract them** to the **Anomaly folder**; **replace the existing files** when prompted.
 """,
 
-    "instp2": """
+    "instp2": """---
 Create another folder **on your base drive**, and name it `RTac`.
 
 Then, **extract ALL the contents** of the `STALKER RTac.7z` file to your `RTac` folder.
@@ -1179,7 +1179,6 @@ if page == "STALKER RTac":
     st.header("STALKER RTac Installation")
 
     st.write(rtac['instp1'])
-    st.header("\n")
     st.write(rtac['instp2'])
     st.image("ArrivalLoadOrder.png")
     
