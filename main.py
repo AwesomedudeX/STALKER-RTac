@@ -1180,7 +1180,6 @@ if page == "STALKER RTac":
 
     st.write(rtac['instp1'])
     st.header("\n")
-    st.write("---")
     st.write(rtac['instp2'])
     st.image("ArrivalLoadOrder.png")
     
