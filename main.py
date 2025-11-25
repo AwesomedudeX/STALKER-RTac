@@ -676,12 +676,10 @@ To install Anomaly, go to your **base drive** (go to `This PC` in **File Explore
 After that, open the **STALKER Anomaly** file using **7Zip**, select **ALL** the files inside and **drag them into your `Anomaly` folder**.
 
 Once it's done extracting, run `AnomalyLauncher.exe`, select your preferred options, and run the game. Once the main menu appears, **close the game**. This will generate files that **Anomaly will need to run properly**.
-
-From there, open the **modded exes** file in **7Zip**, **select** the files inside of this file, and **extract them** to the **Anomaly folder**; **replace the existing files** when prompted.
 """,
 
     "instp2": """---
-Create another folder **on your base drive**, and name it `RTac`.
+From there, create another folder **on your base drive**, and name it `RTac`.
 
 Then, **extract ALL the contents** of the `STALKER RTac.7z` file to your `RTac` folder.
 
