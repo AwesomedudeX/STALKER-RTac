@@ -775,7 +775,7 @@ I'd also recommend using it with **Anomaly Mod Configuration Menu**, which you c
 
 ***Atmospherics GAMMA (ModDB: File size changes with updates)***: https://www.moddb.com/mods/stalker-anomaly/addons/hippos-shaders-and-atmospherics
 
-***RESHADE 6.3.3 DX11 (Google Drive: ~160MB packed; ~1.1GB unpacked)***: https://drive.google.com/uc?export=download&id=1PWpfTfCQYEWr9GsKe0k5X6emepEdT-Rq
+***RESHADE 6.3.3 DX11 (Google Drive: ~160MB packed; ~210MB unpacked, 1.1GB with AOE)***: https://drive.google.com/uc?export=download&id=1PWpfTfCQYEWr9GsKe0k5X6emepEdT-Rq
 
 If you want the full pack, head to the **STALKER RTac** page to check it out; you won't need the instructions on this page if you are using it. If you only want the graphics pack, follow the instructions here to install it.
 """,
