@@ -769,9 +769,9 @@ I'd also recommend using it with **Anomaly Mod Configuration Menu**, which you c
 
 ***X-Ray Monolith Modified Exes (GitHub: ~72MB packed; ~196MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.9.19/STALKER-Anomaly-modded-exes_2025.9.19.zip
 
-***Base Shaders - Regular (Google Drive: ~130MB packed; ~250MB unpacked)***: https://drive.google.com/uc?export=download&id=1W48Dexb3yHj6YMb6wT5WJ8cDciXSCgOW
+***Base Shaders - Regular (Google Drive: ~130MB packed; ~250MB unpacked)***: https://drive.google.com/uc?export=download&id=1OXq4iNDXoG_p2G_ISKW-wjPsEKn15hA1
 
-***Base Shaders - Winter (Google Drive: ~130MB packed; ~250MB unpacked)***: https://drive.google.com/uc?export=download&id=1KA-cwl15vUvpLltuBzGOqg5oWEx5Xxvq
+***Base Shaders - Winter (Google Drive: ~130MB packed; ~250MB unpacked)***: https://drive.google.com/uc?export=download&id=1EaoO-XFsbszmGeEl3dHhTUZu_ny8kaL7
 
 ***Atmospherics GAMMA (ModDB: File size changes with updates)***: https://www.moddb.com/mods/stalker-anomaly/addons/hippos-shaders-and-atmospherics
 
