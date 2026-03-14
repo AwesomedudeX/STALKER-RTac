@@ -1036,7 +1036,6 @@ elif page == "Miracle Graphics Pack":
         with st.expander("**Preview Screenshots**"):
 
             st.header("Preview Screenshots:")
-            st.write("**Note:** These screenshots were taken on a **laptop** with 16GB of RAM, a 1TB SSD, an 11th-gen i7 and an RTX 3060.")
 
             showScreenshots(screenshots, ".png")
 
