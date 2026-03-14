@@ -6,7 +6,7 @@ st.set_page_config(page_title="STALKER RTac Official Site", layout="wide", initi
 @st.cache_data()
 def showScreenshots(screenshots, ext):
     for img in screenshots:
-        st.image(img+ext, img)
+        st.image(img+ext)
 
 page = st.sidebar.radio("**Navigation:**", ["STALKER RTac", "Miracle Graphics Pack", "MCM Settings For SSS", "ReShade File Finder", "Atmospheric Preset Editor"])
 atmospresetlist = ["Realistic", "Cinematic", "Dramatic", "Vibrant", "Dull", "Warm", "Cold", "Summer", "Autumn", "Late Fall", "Winter", "Nature", "Gloomy", "Mysterious", "Apocalypse", "Horror", "Night", "NaturalNV"]
@@ -777,7 +777,7 @@ I'd also recommend using it with **Anomaly Mod Configuration Menu**, which you c
 
 ***RESHADE 6.3.3 DX11 (Google Drive: ~160MB packed; ~210MB unpacked, ~1.1GB with AOE)***: https://drive.google.com/uc?export=download&id=1PWpfTfCQYEWr9GsKe0k5X6emepEdT-Rq
 
-If you want the full pack, head to the **STALKER RTac** page to check it out; you won't need the instructions on this page if you are using it. If you only want the graphics pack, follow the instructions here to install it.
+If you're looking for a full, immersive and realistic STALKER experience, don't forget to head to the **STALKER RTac** page to check it out; you won't need the instructions on this page if you are using it. If you only want the graphics pack, follow the instructions here to install it.
 """,
 
     "instp2": """
@@ -817,7 +817,7 @@ You will also need **7Zip** for this installation (do not use WinRAR, as it can 
 
 Along with that, you will need some other files. **You will not need to reinstall STALKER Anomaly if you already have version 1.5.3**. To extract files during this installation, **open the archive with 7Zip, highlight the files inside, and drag them to your target location**. Here are links to **all** of the files that you will need for the installation:
 
-***STALKER RTac (~25GB packed; ~95GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/addons/stalker-real-tactical
+***STALKER RTac (~29GB packed; ~100GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/addons/stalker-real-tactical
 
 ***STALKER Anomaly 1.5.3 (ModDB: ~9GB packed; ~15GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/downloads/stalker-anomaly-153
 
@@ -829,7 +829,7 @@ Along with that, you will need some other files. **You will not need to reinstal
 
 ***Anomaly Mod Configuration Menu - RavenAscendant (ModDB: File size changes with updates)***: https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu
 
-The **final installation size** comes out to **~140GB**, though I'd recommend clearing out **200GB** in advance to avoid any issues with installation.
+The **final installation size** comes out to **~150GB**, though I'd recommend clearing out **200GB** in advance to avoid any issues with installation.
 
 ---""",
 
@@ -968,7 +968,7 @@ graphicslist = {
     "weather": """
 - **Weather Expansion For Atmospherics - Ani HVX:** Adds a wide variety of weathers to the game, all of which look realistic, yet cinematic.
 
-- **Apocalyptic Blowout Overhaul 4.0.1:** Revamps blowouts to look incredibly beautiful.
+- **Apocalyptic Blowout Overhaul:** Revamps blowouts to look incredibly beautiful.
 
 - **Awesomedude's Weather Edits For Weather Expansion:** My own edits to the weathers, adjusting and reworking the weather for cinematic sunrises and sunsets, moderately bright days, dark and forboding nights, aggressive, yet beautiful storms and menacing, but less suffocating fog.
     """,
@@ -979,16 +979,21 @@ graphicslist = {
 
 }
 screenshots = [
-    "Army Warehouses Sunset",
-    "Freedom Base Sunrise (Window)",
-    "Freedom Base Sunset",
-    "Freedom Base Campfires in The Rain",
-    "Driving in Dead City",
-    "Night in Red Forest",
-    "Great Swamps Rain",
-    "Cordon Sunset",
-    "Winter Wonderland",
-    "Yantar Mobile Laboratory",
+    "Screenshot 1",
+    "Screenshot 2",
+    "Screenshot 3",
+    "Screenshot 4",
+    "Screenshot 5",
+    "Screenshot 6",
+    "Screenshot 7",
+    "Screenshot 8",
+    "Screenshot 9",
+    "Screenshot 10",
+    "Screenshot 11",
+    "Screenshot 12",
+    "Screenshot 13",
+    "Screenshot 14",
+    "Screenshot 15"
 ]
 
 if page == "STALKER RTac":
