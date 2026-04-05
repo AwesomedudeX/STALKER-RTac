@@ -856,7 +856,7 @@ To do this, right-click on the **RTac Graphics** separator, hover over `All Mods
 """,
 
     "instp4": """
-Next, expand the **RTac Visuals & Actor Animations** separator by clicking on the arrow to the left of its name. If the arrow is pointing down, the separator has been expanded. Right-click the **first (top) mod** under the **RTac Visuals & Actor Animations** separator, hover over `All Mods`, and click `Install mod above...`. Then, **install Arrival Anomalies** with your preferred settings, and **enable** it by clicking the checkbox on the **left** side of the screen. Your **load order** should look like the image below:
+Next, expand the **RTac Visuals** separator by clicking on the arrow to the left of its name. If the arrow is pointing down, the separator has been expanded. Right-click the **first (top) mod** under the **RTac Visuals** separator, hover over `All Mods`, and click `Install mod above...`. Then, **install Arrival Anomalies** with your preferred settings, and **enable** it by clicking the checkbox on the **left** side of the screen. Your **load order** should look like the image below:
 """,
 
     "instp5": """
