@@ -1091,8 +1091,8 @@ elif page == "Miracle Graphics Pack":
 elif page == "MCM Settings For SSS":
 
     st.write("This will edit your MCM settings file to change its settings to what they should be for this pack.")
-    st.write("Upload your `axr_options.ltx` file from your G.A.M.M.A. MCM values mod in MO2 - to get it, open MO2, search for `G.A.M.M.A. MCM values`, right-click on the mod and hit `Reveal in Explorer`.")
-    st.write("After that, in the file explorer window that pops up, open the `gamedata` folder, open the `configs` folder inside of that, and drag and drop the `axr_options.ltx` file onto the website.")
+    st.write("Upload your `axr_options.ltx` file from your MCM values mod in MO2 - to get it, open MO2, search for `axr_options.ltx` on MO2's file explorer (on the right side of the screen), right-click on the file and hit `Reveal in Explorer`.")
+    st.write("After that, in the File Explorer window that pops up, open the `gamedata` folder, open the `configs` folder inside of that, and drag and drop the `axr_options.ltx` file onto the website.")
     st.write("Then, download the converted file, drag it into the `configs` folder and replace the existing file when prompted.")
 
     userfile = st.file_uploader("")
