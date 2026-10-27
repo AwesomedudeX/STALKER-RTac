@@ -765,8 +765,6 @@ I'd also recommend using it with **Anomaly Mod Configuration Menu**, which you c
 
 **Download these files using the links below - they will be installed through MO2 (choose *ONE* Base Shaders file based on whether you are running Winter, or not):**
 
-***Miracle Graphics Pack (ModDB: ~25GB packed; up to ~40GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/addons/miracle-graphics-pack
-
 ***X-Ray Monolith Modified Exes (GitHub: ~72MB packed; ~196MB unpacked)***: https://github.com/themrdemonized/xray-monolith/releases/download/2025.9.19/STALKER-Anomaly-modded-exes_2025.9.19.zip
 
 ***Base Shaders - Regular (Google Drive: ~130MB packed; ~250MB unpacked)***: https://drive.google.com/uc?export=download&id=1OXq4iNDXoG_p2G_ISKW-wjPsEKn15hA1
@@ -774,6 +772,8 @@ I'd also recommend using it with **Anomaly Mod Configuration Menu**, which you c
 ***Base Shaders - Winter (Google Drive: ~130MB packed; ~250MB unpacked)***: https://drive.google.com/uc?export=download&id=1EaoO-XFsbszmGeEl3dHhTUZu_ny8kaL7
 
 ***Atmospherics GAMMA (ModDB: File size changes with updates)***: https://www.moddb.com/mods/stalker-anomaly/addons/hippos-shaders-and-atmospherics
+
+***Miracle Graphics Pack (ModDB: ~25GB packed; up to ~40GB unpacked)***: https://www.moddb.com/mods/stalker-anomaly/addons/miracle-graphics-pack
 
 ***RESHADE 6.3.3 DX11 (Google Drive: ~215MB packed; ~251MB unpacked, ~550MB with MT (recommended), ~1.1GB with AOE)***: https://drive.google.com/uc?export=download&id=1PWpfTfCQYEWr9GsKe0k5X6emepEdT-Rq
 
@@ -834,17 +834,17 @@ The **final installation size** comes out to **~150GB**, though I'd recommend cl
 ---""",
 
     "instp1": """---
-To install Anomaly, go to your **base drive** (go to `This PC` in **File Explorer**, and select your drive - preferably your **`C:` drive**; you may have issues otherwise. Then, create a folder for **STALKER Anomaly** (I **highly recommend** to name it `Anomaly` to **avoid file path length issues**).
+To install Anomaly, go to your **base drive** (go to `This PC` in **File Explorer**, and select your drive - preferably your **`C:` drive**. Then, create a folder called `Anomaly`.
 
-After that, open the **STALKER Anomaly** file using **7Zip**, select **ALL** the files inside and **drag them into your `Anomaly` folder**.
+After that, open the **STALKER Anomaly** file using **7Zip**, select **ALL** the files inside and drag them into your `Anomaly` folder.
 
-Once it's done extracting, run `AnomalyLauncher.exe`, select your preferred options, and run the game. Once the main menu appears, **close the game**. This will generate files that **Anomaly will need to run properly**.
+Once it's done extracting, run `AnomalyLauncher.exe`, select your preferred options, and run the game. Once the main menu appears, **close the game**. This will generate files that Anomaly will need to run properly.
+
+Next, open the `STALKER RTac.7z` file, and extract the `user.ltx` file into the `appdata` folder - this file contains all of the **base game** RTac settings, but **will not** affect your Mod Configuration Menu settings.
 """,
 
     "instp2": """---
-From there, create another folder **on your base drive**, and name it `RTac`.
-
-Then, **extract ALL the contents** of the `STALKER RTac.7z` file to your `RTac` folder.
+From there, go back to your **base drive**, and extract the `RTac` folder inside of the `STALKER RTac.7z` file to your **base drive**.
 
 Once that's done, **open MO2** by running `ModOrganizer.exe` (which is inside of your `RTac` folder). Next, install **Atmospherics GAMMA** with the settings in the screenshot below, followed by **Miracle Graphics Pack** into the **RTac Graphics** separator.
 
